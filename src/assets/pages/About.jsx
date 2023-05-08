@@ -9,9 +9,9 @@ import ViewAllProjects from "../components/viewAllProjects/ViewAllProjects";
 import Cta from "../components/cta/Cta";
 import Footer from "../components/footer/Footer";
 
-//projcets
-import stumblePic from "../images/stumble/stumble-iphone.webp";
+//projects
 import setiaPic from "../images/setia/setia-3.webp";
+import stumblePic from "../images/stumble/stumble-iphone.webp";
 
 function About() {
   useEffect(() => {
