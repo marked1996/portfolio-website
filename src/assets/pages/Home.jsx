@@ -24,7 +24,7 @@ import tickerSeven from "../images/ticker/ticker-7.webp";
 
 //projects
 import stumblePic from "../images/stumble/stumble-iphone.webp";
-import setiaPic from "../images/setia/setia-3.webp";
+import setiaProjectPic from "../images/setia/setia-1.webp";
 
 function Home() {
   useEffect(() => {
@@ -203,7 +203,7 @@ function Home() {
               alt="Stumble app open on an iphone laying on concrete"
             />
             <ProjectCard
-              src={setiaPic}
+              src={setiaProjectPic}
               projectId="/setia"
               value="Setia"
               alt="Setia project front card"
