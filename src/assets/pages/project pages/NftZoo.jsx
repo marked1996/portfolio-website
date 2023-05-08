@@ -1,9 +1,22 @@
 import React from "react";
 import { useEffect } from "react";
 //components
-import ViewAllProjects from "../../components/viewAllProjects/ViewAllProjects";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/project-card/ProjectCard";
+
+// project images
+import nftPicOne from "../../images/nftjungle/nftjungle-1.webp";
+import nftPicTwo from "../../images/nftjungle/nftjungle-2.webp";
+import nftPicThree from "../../images/nftjungle/nftjungle-3.webp";
+import nftPicFour from "../../images/nftjungle/nftjungle-4.webp";
+import nftPicFive from "../../images/nftjungle/nftjungle-5.webp";
+import nftPicSix from "../../images/nftjungle/nftjungle-6.webp";
+import nftPicSeven from "../../images/nftjungle/nftjungle-7.webp";
+import nftGif from "../../images/nftjungle/nftjunglegif.gif";
+
+//project card img
+import setiaPic from "../../images/setia/setia-3.webp";
+import stumblePic from "../../images/stumble/stumble-iphone.webp";
 
 function NftZoo() {
   useEffect(() => {
@@ -61,38 +74,38 @@ function NftZoo() {
         <section id="project-imgs">
           <div className="grid grid-cols-1 gap-outer md:grid-cols-2">
             <img
-              src="src\assets\images\nftjungle\screens.webp"
+              src={nftPicSeven}
               className="md:col-span-2 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="NFT Jungle UI screens"
             />
             <img
-              src="src\assets\images\nftjungle\nftjungle.webp"
+              src={nftPicOne}
               className="md:col-span-2 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="NFT Jungle UI screens"
             />
             <img
-              src="src\assets\images\nftjungle\nftjunglegif.gif"
+              src={nftGif}
               className="grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="NFT giraffes and crocodiles gif looping"
             />
             <img
-              src="src\assets\images\nftjungle\nftjungleshirt.webp"
+              src={nftPicFive}
               className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
               alt="tshirt nft jungle"
             />
 
             <img
-              src="src\assets\images\nftjungle\nftjunglescreen2.webp"
+              src={nftPicTwo}
               className=" md:col-span-2 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
               alt="nft jungle screen"
             />
             <img
-              src="src\assets\images\nftjungle\nftjunglescreen.webp"
+              src={nftPicThree}
               className=" grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="nft jungle screen"
             />
             <img
-              src="src\assets\images\nftjungle\nftzoopack.webp"
+              src={nftPicFour}
               className=" grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="nft jungle screen"
             />
@@ -103,13 +116,13 @@ function NftZoo() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-outer">
             <ProjectCard
               value="Setia"
-              src="src\assets\images\setia\Setia-1.webp"
+              src={setiaPic}
               projectId="/setia"
               alt="Poolhouse Setia project card"
             />
             <ProjectCard
               value="Stumble Mobile App"
-              src="src\assets\images\stumble\stumble iphone.webp"
+              src={stumblePic}
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />

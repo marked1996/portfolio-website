@@ -4,6 +4,16 @@ import { useEffect } from "react";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/project-card/ProjectCard";
 
+// setia images
+import setiaPicOne from "../../images/setia/Setia-1.webp";
+import setiaPicThree from "../../images/setia/Setia-3.webp";
+import setiaPicFour from "../../images/setia/Setia-4.webp";
+import setiaPicFive from "../../images/setia/Setia-5.webp";
+
+//project card imgs
+import nftPic from "../../images/nftjungle/nftjungle-1.webp";
+import stumblePic from "../../images/stumble/stumble-iphone.webp";
+
 function Setia() {
   useEffect(() => {
     document.querySelector("#cards").onmousemove = (e) => {
@@ -56,23 +66,23 @@ function Setia() {
         <section id="project-imgs">
           <div className="grid grid-cols-1 gap-outer md:grid-cols-2">
             <img
-              src="src\assets\images\setia\Setia-1.webp"
+              src={setiaPicOne}
               className="md:col-span-2 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="Setia UI screens"
             />
             <img
-              src="src\assets\images\setia\Setia-3.webp"
+              src={setiaPicThree}
               className="grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="Setia laptop ui screen"
             />
             <img
-              src="src\assets\images\setia\Setia-4.webp"
+              src={setiaPicFour}
               className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
               alt="Setia logo buisness card"
             />
 
             <img
-              src="src\assets\images\setia\Setia-5.webp"
+              src={setiaPicFive}
               className=" md:col-span-2 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
               alt="Setia logo on matte black paper"
             />
@@ -83,13 +93,13 @@ function Setia() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-outer">
             <ProjectCard
               value="Stumble Mobile App"
-              src="src\assets\images\stumble\stumble iphone.webp"
+              src={stumblePic}
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />
             <ProjectCard
               value="NFT Jungle"
-              src="src\assets\images\nftjungle\nftjungle.webp"
+              src={nftPic}
               projectId="/nftjungle"
               alt="NFT Jungle screens"
             />

@@ -9,6 +9,11 @@ import ViewAllProjects from "../components/viewAllProjects/ViewAllProjects";
 import Cta from "../components/cta/Cta";
 import Footer from "../components/footer/Footer";
 
+//projcets
+import stumblePic from "../images/stumble/stumble-iphone.webp";
+import setiaPic from "../images/setia/setia-3.webp";
+//profile pic placeholder
+
 function About() {
   useEffect(() => {
     document.querySelector("#cards").onmousemove = (e) => {
@@ -45,8 +50,8 @@ function About() {
               <img
                 loading="lazy"
                 className="object-cover w-full h-full rounded-radius"
-                src="./src/assets/images/mic.jpg"
-                alt=""
+                src={setiaPic}
+                alt="profile picture Marked"
               />
             </div>
           </article>
@@ -109,14 +114,14 @@ function About() {
         <section id="projects">
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             <ProjectCard
-              src="/src/assets/images/setia/Setia-1.webp"
+              src={setiaPic}
               projectId="/setia"
               value="Setia"
               alt="Setia project front card"
             />
             <ProjectCard
               value="Stumble App"
-              src="/src/assets/images/stumble/stumble iphone.webp"
+              src={stumblePic}
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />

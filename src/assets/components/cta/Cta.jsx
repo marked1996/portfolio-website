@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../buttons/btn/Button";
+import ctaImg from "../../images/ticker/ticker-3.webp";
 
 function Cta({ href }) {
   return (
@@ -10,8 +11,7 @@ function Cta({ href }) {
             Let's create{" "}
             <span className=" hidden md:h-8 md:translate-y-[6px] lg:translate-y-[8px] lg:h-12 aspect-video object-cover md:inline-block lg:inline-block">
               <img
-                src="./src/assets/images/setia/Setia-1.webp"
-                alt=""
+                src={ctaImg}
                 className="grayscale rounded-md object-cover h-full w-full"
               />
             </span>{" "}

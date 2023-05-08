@@ -1,9 +1,20 @@
 import React from "react";
 import { useEffect } from "react";
 //components
-import ViewAllProjects from "../../components/viewAllProjects/ViewAllProjects";
 import Footer from "../../components/footer/Footer";
 import ProjectCard from "../../components/project-card/ProjectCard";
+
+//images
+import stumblePicOne from "../../images/stumble/stumble-iphone.webp";
+import stumblePicTwo from "../../images/stumble/stumble-2.webp";
+import stumblePicThree from "../../images/stumble/stumble-3.webp";
+import stumblePicFour from "../../images/stumble/stumble-4.webp";
+import stumblePicFive from "../../images/stumble/stumble-5.webp";
+import stumblePicSix from "../../images/stumble/stumble-6.webp";
+
+//project images
+import nftPic from "../../images/nftjungle/nftjungle-1.webp";
+import setiaPic from "../../images/setia/setia-3.webp";
 
 function Stumble() {
   useEffect(() => {
@@ -57,28 +68,28 @@ function Stumble() {
         <section id="project-imgs">
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             <img
-              src="src\assets\images\stumble\screensangled.webp"
+              src={stumblePicSix}
               className=" col-span-1 md:col-span-2 rounded-radius grayscale-[80%] hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out bg-cover h-full w-full"
               alt="Stumble components"
             />
             <img
-              src="src\assets\images\stumble\stumblecover.webp"
+              src={stumblePicFive}
               className="col-span-1 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover w-full"
               alt="Stumble cover photo"
             />
 
             <img
-              src="src\assets\images\stumble\stumble iphone.webp"
+              src={stumblePicFour}
               className="col-span-1 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out h-full w-full"
               alt="Stumble home screen"
             />
             <img
-              src="src\assets\images\stumble\stumblecomponents.webp"
+              src={stumblePicThree}
               className="col-span-1 md:col-span-2 rounded-radius grayscale-[80%] hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out bg-cover h-full w-full"
               alt="6 Stumble screens open on an iphone"
             />
             <img
-              src="src\assets\images\stumble\iphone screens grid.webp"
+              src={stumblePicOne}
               className="col-span-1 md:col-span-2 rounded-radius grayscale-[80%] hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out bg-cover h-full w-full"
               alt="6 Stumble screens open on an iphone"
             />
@@ -89,13 +100,13 @@ function Stumble() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-outer">
             <ProjectCard
               value="NFT Jungle"
-              src="src\assets\images\nftjungle\nftjungle.webp"
+              src={nftPic}
               projectId="/nftjungle"
               alt="Stumble app open on an iphone laying on concrete"
             />
             <ProjectCard
               value="Setia"
-              src="src\assets\images\setia\Setia-1.webp"
+              src={setiaPic}
               projectId="/setia"
               alt="Poolhouse Setia project card"
             />

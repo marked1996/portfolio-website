@@ -13,6 +13,19 @@ import ViewAllProjects from "../components/viewAllProjects/ViewAllProjects";
 import Cta from "../components/cta/Cta";
 import Footer from "../components/footer/Footer";
 
+//ticker
+import tickerOne from "../images/ticker/ticker-1.webp";
+import tickerTwo from "../images/ticker/ticker-2.webp";
+import tickerThree from "../images/ticker/ticker-3.webp";
+import tickerFour from "../images/ticker/ticker-4.webp";
+import tickerFive from "../images/ticker/ticker-5.webp";
+import tickerSix from "../images/ticker/ticker-6.webp";
+import tickerSeven from "../images/ticker/ticker-7.webp";
+
+//projects
+import stumblePic from "../images/stumble/stumble-iphone.webp";
+import setiaPic from "../images/setia/setia-3.webp";
+
 function Home() {
   useEffect(() => {
     document.querySelector("#cards").onmousemove = (e) => {
@@ -63,11 +76,11 @@ function Home() {
           </div>
         </article>
         <div className="ticker-marquee-wrapper">
-          <Marquee gradientColor={[14, 14, 14]} gradientWidth={100} speed={100}>
+          <Marquee gradientColor={[14, 14, 14]} gradientWidth={100} speed={80}>
             <section id="banner" className="flex gap-outer w-[140%] h-full">
               <div className="img-container bg-cover rounded-radius h-full ">
                 <img
-                  src="src\assets\images\ticker\ticker-1.webp"
+                  src={tickerOne}
                   alt="project img"
                   className="w-full h-full rounded-radius grayscale object-cover"
                 />
@@ -75,42 +88,42 @@ function Home() {
 
               <div className="img-container h-full bg-cover rounded-radius">
                 <img
-                  src="src\assets\images\ticker\ticker-2.webp"
+                  src={tickerTwo}
                   alt="project img"
                   className="w-full h-full  rounded-radius grayscale"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius">
                 <img
-                  src="src\assets\images\ticker\ticker-3.webp"
+                  src={tickerThree}
                   alt="project img"
                   className="w-full h-full  rounded-radius grayscale"
                 />
               </div>
               <div className="img-container h-full  bg-cover rounded-radius">
                 <img
-                  src="src\assets\images\ticker\ticker-4.webp"
+                  src={tickerFour}
                   alt="project img"
                   className="w-full h-full  rounded-radius grayscale"
                 />
               </div>
               <div className="img-container h-full mr-3 bg-cover rounded-radius">
                 <img
-                  src="src\assets\images\ticker\ticker-7.webp"
+                  src={tickerFive}
                   alt="project img"
                   className="w-full h-full  rounded-radius grayscale"
                 />
               </div>
               <div className="img-container h-full mr-3 bg-cover rounded-radius">
                 <img
-                  src="src\assets\images\ticker\ticker-5.webp"
+                  src={tickerSix}
                   alt="project img"
                   className="w-full h-full  rounded-radius grayscale"
                 />
               </div>
               <div className="img-container h-full mr-3 bg-cover rounded-radius">
                 <img
-                  src="src\assets\images\ticker\ticker-6.webp"
+                  src={tickerSeven}
                   alt="project img"
                   className="w-full h-full  rounded-radius grayscale"
                 />
@@ -137,8 +150,8 @@ function Home() {
           <article className="card basis-0 grow rounded-radius overflow-hidden hidden lg:block bg-cover">
             <img
               className="object-cover w-full h-full"
-              src="./src/assets/images/mic.jpg"
-              alt=""
+              src={tickerThree}
+              alt="profile picture Marked"
             />
           </article>
         </section>
@@ -185,12 +198,12 @@ function Home() {
             /> */}
             <ProjectCard
               value="Stumble App"
-              src="src\assets\images\stumble\stumble iphone.webp"
+              src={stumblePic}
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />
             <ProjectCard
-              src="src\assets\images\setia\Setia-1.webp"
+              src={setiaPic}
               projectId="/setia"
               value="Setia"
               alt="Setia project front card"
