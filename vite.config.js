@@ -8,7 +8,13 @@ export default defineConfig({
     port: 3000,
   },
   build: {
-    outDir: "dist",
-    assetsDir: "assets",
+    rollupOptions: {
+      input: {
+        main: "./index.html",
+      },
+      output: {
+        assetFileNames: "assets/[name].[hash][ext]",
+      },
+    },
   },
 });
