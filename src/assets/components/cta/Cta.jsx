@@ -10,7 +10,7 @@ function Cta({ href }) {
             Let's create{" "}
             <span className=" hidden md:h-8 md:translate-y-[6px] lg:translate-y-[8px] lg:h-12 aspect-video object-cover md:inline-block lg:inline-block">
               <img
-                src="src/assets/images/setia/Setia-1.webp"
+                src="./src/assets/images/setia/Setia-1.webp"
                 alt=""
                 className="grayscale rounded-md object-cover h-full w-full"
               />

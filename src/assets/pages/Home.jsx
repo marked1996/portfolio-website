@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { useEffect } from "react";
 import Marquee from "react-fast-marquee";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

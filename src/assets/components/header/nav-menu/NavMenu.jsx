@@ -57,13 +57,17 @@ function NavMenu({ isNavOpen, handleClick }) {
       <section className="flex flex-col gap-outer  lg:flex-row lg:justify-between">
         <ul className="flex gap-outer flex-wrap">
           <li>
-            <a href="#">Instagram</a>
+            <a href="https://www.instagram.com/marknovak1996/" target="_blank">
+              Instagram
+            </a>
           </li>
+          {/* <li>
+            <a href="#" target="_blank">LinkedIn</a>
+          </li> */}
           <li>
-            <a href="#">LinkedIn</a>
-          </li>
-          <li>
-            <a href="#">Github</a>
+            <a href="https://github.com/marked1996" target="_blank">
+              Github
+            </a>
           </li>
         </ul>
         <a href="mailto:novakmark9@gmail.com">novakmark9@gmail.com</a>

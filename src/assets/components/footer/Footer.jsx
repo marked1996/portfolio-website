@@ -8,20 +8,23 @@ function Footer() {
           <a href="mailto:novakmark9@gmail.com">marked@gmail.com</a>
           <div className="social-media flex gap-outer">
             <span>
-              <a href="#" target="_blank">
+              <a
+                href="https://www.instagram.com/marknovak1996/"
+                target="_blank"
+              >
                 Instagram
               </a>
             </span>
             <span>
-              <a href="#" target="_blank">
+              <a href="https://github.com/marked1996" target="_blank">
                 Github
               </a>
             </span>
-            <span>
+            {/* <span>
               <a href="#" target="_blank">
                 LinkedIn
               </a>
-            </span>
+            </span> */}
           </div>
         </div>
         <div className="right-side">
