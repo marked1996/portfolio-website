@@ -12,7 +12,6 @@ import Footer from "../components/footer/Footer";
 //projcets
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 import setiaPic from "../images/setia/setia-3.webp";
-//profile pic placeholder
 
 function About() {
   useEffect(() => {
