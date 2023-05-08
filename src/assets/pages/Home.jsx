@@ -24,7 +24,7 @@ import tickerSeven from "../images/ticker/ticker-7.webp";
 
 //projects
 import stumblePic from "../images/stumble/stumble-iphone.webp";
-import setiaProjectPic from "../images/setia/setia-1.webp";
+import setiaProjectPic from "../images/setia/Setia-1.webp";
 
 function Home() {
   useEffect(() => {

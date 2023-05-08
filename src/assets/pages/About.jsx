@@ -10,7 +10,7 @@ import Cta from "../components/cta/Cta";
 import Footer from "../components/footer/Footer";
 
 //projects
-import setiaPic from "../images/setia/setia-3.webp";
+import setiaPic from "../images/setia/Setia-3.webp";
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 
 function About() {

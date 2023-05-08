@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 //projects
 import stumblePic from "../images/stumble/stumble-iphone.webp";
-import setiaPic from "../images/setia/setia-3.webp";
+import setiaProjectPic from "../images/setia/setia-3.webp";
 import nftPic from "../images/nftjungle/nftjungle-1.webp";
 
 //components
@@ -39,7 +39,7 @@ function AllProjects() {
               alt="Stumble app open on an iphone laying on concrete"
             />
             <ProjectCard
-              src={setiaPic}
+              src={setiaProjectPic}
               projectId="/setia"
               value="Setia"
               alt="Setia project front card"

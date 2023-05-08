@@ -14,7 +14,7 @@ import stumblePicSix from "../../images/stumble/stumble-6.webp";
 
 //project images
 import nftPic from "../../images/nftjungle/nftjungle-1.webp";
-import setiaPic from "../../images/setia/setia-3.webp";
+import setiaPic from "../../images/setia/Setia-3.webp";
 
 function Stumble() {
   useEffect(() => {

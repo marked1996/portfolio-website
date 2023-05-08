@@ -10,12 +10,11 @@ import nftPicTwo from "../../images/nftjungle/nftjungle-2.webp";
 import nftPicThree from "../../images/nftjungle/nftjungle-3.webp";
 import nftPicFour from "../../images/nftjungle/nftjungle-4.webp";
 import nftPicFive from "../../images/nftjungle/nftjungle-5.webp";
-import nftPicSix from "../../images/nftjungle/nftjungle-6.webp";
 import nftPicSeven from "../../images/nftjungle/nftjungle-7.webp";
 import nftGif from "../../images/nftjungle/nftjunglegif.gif";
 
 //project card img
-import setiaPic from "../../images/setia/setia-3.webp";
+import setiaPic from "../../images/setia/Setia-3.webp";
 import stumblePic from "../../images/stumble/stumble-iphone.webp";
 
 function NftZoo() {
