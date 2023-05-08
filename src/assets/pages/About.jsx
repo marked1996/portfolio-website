@@ -109,14 +109,14 @@ function About() {
         <section id="projects">
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             <ProjectCard
-              src="src\assets\images\setia\Setia-1.webp"
+              src="/src/assets/images/setia/Setia-1.webp"
               projectId="/setia"
               value="Setia"
               alt="Setia project front card"
             />
             <ProjectCard
               value="Stumble App"
-              src="src\assets\images\stumble\stumble iphone.webp"
+              src="/src/assets/images/stumble/stumble iphone.webp"
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />
