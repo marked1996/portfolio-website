@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 //projects
 import stumblePic from "../images/stumble/stumble-iphone.webp";
-import setiaProjectPic from "../images/setia/setia-3.webp";
+import setiaProjectPic from "../images/setia/Setia-3.webp";
 import nftPic from "../images/nftjungle/nftjungle-1.webp";
 
 //components
