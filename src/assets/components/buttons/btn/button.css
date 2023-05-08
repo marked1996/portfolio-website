@@ -1,0 +1,53 @@
+/* .btn {
+  margin-top: var(--inner-element-gap);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--text-color);
+  font-size: var(--link-size);
+  opacity: 0.3;
+  transition: opacity 0.2s ease-in-out;
+  font-family: inherit;
+  font-weight: 400;
+  letter-spacing: -0.045ch;
+  line-height: 2ch;
+} */
+.btn-link {
+  display: inline;
+}
+.btn {
+  letter-spacing: -0.045ch;
+}
+#svg-container {
+  height: 20px;
+  transform: translateX(-6px);
+  transition: transform 0.15s ease-in-out;
+  margin-left: 1rem;
+}
+
+#svg-item polygon {
+  fill: var(--text-color);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+#svg-item rect {
+  fill: var(--text-color);
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.btn-link:hover .btn {
+  opacity: 1;
+}
+
+.btn-link:hover #svg-container {
+  transform: translateX(0);
+}
+
+.btn-link:hover #svg-item rect {
+  opacity: 1;
+}
+
+.btn-link:hover #svg-item polygon {
+  opacity: 1;
+}

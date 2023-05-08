@@ -1,0 +1,17 @@
+HOME
+    -ticker img size: 600x400px
+    -profile img size: 600x500px
+    -project card img size: 1200x800px
+
+ABOUT
+    -profile pic: 1400x900px
+    -project card img size: 1200x800px
+
+PROJECTS
+    -project card img size: 1200x800px
+
+CONTACT
+    -/
+
+LAZY LOAD
+    -all page components, suspense (black screen moving gradient)
