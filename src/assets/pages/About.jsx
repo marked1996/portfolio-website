@@ -109,23 +109,20 @@ function About() {
         <section id="projects">
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             <ProjectCard
-              src="./src/assets/images/vinil.jpg"
-              projectId="photo"
+              src="src\assets\images\setia\Setia-1.webp"
+              projectId="/setia"
+              value="Setia"
+              alt="Setia project front card"
             />
             <ProjectCard
-              src="./src/assets/images/vinil.jpg"
-              projectId="photo"
+              value="Stumble App"
+              src="src\assets\images\stumble\stumble iphone.webp"
+              projectId="/stumbleapp"
+              alt="Stumble app open on an iphone laying on concrete"
             />
-            <ProjectCard
-              src="./src/assets/images/vinil.jpg"
-              projectId="testing"
-              className=""
-            />
-            <ProjectCard
-              src="./src/assets/images/vinil.jpg"
-              projectId="photo"
-              className=""
-            />
+            <h3 className="mb-[10svh] text-linkClr">
+              Adding more projects soon...
+            </h3>
           </div>
         </section>
         <section id="view-all-projects">
