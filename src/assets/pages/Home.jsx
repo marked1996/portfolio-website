@@ -100,8 +100,8 @@ function Home() {
             gradientWidth={100}
             speed={marqueeSpeed}
           >
-            <section id="banner" className="flex gap-outer w-[140%] h-full">
-              <div className="img-container rounded-radius h-full sm:w-24 md:w-52 xl:w-96">
+            <section id="banner" className="flex gap-outer h-full">
+              <div className="img-container bg-cover rounded-radius h-full sm:w-24 md:w-52 xl:w-96 overflow-hidden">
                 <img
                   src={tickerOne}
                   alt="project img"
@@ -109,46 +109,46 @@ function Home() {
                 />
               </div>
 
-              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
+              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
                 <img
                   src={tickerTwo}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
+              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
                 <img
                   src={tickerThree}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full  bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
+              <div className="img-container h-full  bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
                 <img
                   src={tickerFour}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
+              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
                 <img
                   src={tickerFive}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
+              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
                 <img
                   src={tickerSix}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
+              <div className="img-container   h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
                 <img
                   src={tickerSeven}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
             </section>
@@ -218,18 +218,18 @@ function Home() {
               src="src\assets\images\poolhouse\poolhouselogo.webp"
               projectId="/poolhouseljubljana"
               alt="Poolhouse Ljubljana project card"
-            /> */}
-            <ProjectCard
-              value="Stumble App"
-              src={stumblePic}
-              projectId="/stumbleapp"
-              alt="Stumble app open on an iphone laying on concrete"
-            />
+            /> */}{" "}
             <ProjectCard
               src={setiaProjectPic}
               projectId="/setia"
               value="Setia"
               alt="Setia project front card"
+            />
+            <ProjectCard
+              value="Stumble App"
+              src={stumblePic}
+              projectId="/stumbleapp"
+              alt="Stumble app open on an iphone laying on concrete"
             />
             {/* <ProjectCard
               src="src\assets\images\nftjungle\nftjungle.webp"

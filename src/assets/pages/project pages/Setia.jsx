@@ -9,6 +9,7 @@ import setiaPicOne from "../../images/setia/Setia-1.webp";
 import setiaPicThree from "../../images/setia/Setia-3.webp";
 import setiaPicFour from "../../images/setia/Setia-4.webp";
 import setiaPicFive from "../../images/setia/Setia-5.webp";
+import setiaPicSix from "../../images/setia/Setia-6.webp";
 
 //project card imgs
 import nftPic from "../../images/nftjungle/nftjungle-1.webp";
@@ -83,6 +84,11 @@ function Setia() {
 
             <img
               src={setiaPicFive}
+              className=" md:col-span-2 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              alt="Setia logo on matte black paper"
+            />
+            <img
+              src={setiaPicSix}
               className=" md:col-span-2 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
               alt="Setia logo on matte black paper"
             />
