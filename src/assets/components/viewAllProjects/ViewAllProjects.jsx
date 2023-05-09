@@ -10,7 +10,7 @@ function ViewAllProjects() {
     const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     const handleMediaQueryChange = (event) => {
-      setMarqueeSpeed(event.matches ? 40 : 70);
+      setMarqueeSpeed(event.matches ? 30 : 70);
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);

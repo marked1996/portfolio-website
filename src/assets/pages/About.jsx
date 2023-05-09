@@ -35,7 +35,7 @@ function About() {
     const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     const handleMediaQueryChange = (event) => {
-      setMarqueeSpeed(event.matches ? 40 : 70);
+      setMarqueeSpeed(event.matches ? 30 : 70);
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
@@ -118,7 +118,7 @@ function About() {
               <Marquee
                 gradientColor={[14, 14, 14]}
                 gradientWidth={50}
-                speed={100}
+                speed={marqueeSpeed}
                 pauseOnHover="true"
               >
                 <p className="text-linkClr">
