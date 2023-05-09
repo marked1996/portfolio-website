@@ -6,7 +6,7 @@ function ProjectCard({ value, src, alt, projectId }) {
     <Link to={projectId}>
       <article
         className="card group rounded-radius  hover:cursor-pointer opacity-70 hover:opacity-100 
-      transition duration-300 ease-in-out relative h-full grayscale hover:grayscale-0"
+      transition duration-300 ease-in-out relative h-full grayscale hover:grayscale-0 overflow-hidden"
       >
         <div className="img-container  h-full w-full bg-cover overflow-hidden rounded-radius">
           <img

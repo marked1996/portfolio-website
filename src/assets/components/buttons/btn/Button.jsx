@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./button.css";
+import classNames from "classnames";
 
-function Button({ value, href }) {
+function Button({ value, href, className }) {
+  const buttonClass = classNames("btn text-linkText", className);
+
   return (
     <Link to={href} className="btn-link flex items-center">
-      <button className="btn text-linkText">{value}</button>
+      <button className={buttonClass}>{value}</button>
       <svg
-      
         id="svg-container"
         data-name="Layer 2"
         xmlns="http://www.w3.org/2000/svg"

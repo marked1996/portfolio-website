@@ -224,9 +224,14 @@ HOVER CARD STYLES
 
 /* banner marquee styling */
 .ticker-marquee-wrapper .marquee {
-  height: 200px;
+  height: 140px;
 }
 @media (min-width: 768px) {
+  .ticker-marquee-wrapper .marquee {
+    height: 180px;
+  }
+}
+@media (min-width: 1280px) {
   .ticker-marquee-wrapper .marquee {
     height: 400px;
   }

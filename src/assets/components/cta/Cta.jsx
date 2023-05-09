@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../buttons/btn/Button";
-import ctaImg from "../../images/ticker/ticker-3.webp";
+import ctaImg from "../../images/mark-portret.webp";
 
 function Cta({ href }) {
   return (
@@ -17,7 +17,7 @@ function Cta({ href }) {
             </span>{" "}
             something together.
           </h2>
-          <Button value="Get in touch" href={href} />
+          <Button value="Get in touch" href={href} className="ml-10 lg:ml-6" />
         </div>
       </div>
     </article>

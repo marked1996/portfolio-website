@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useEffect } from "react";
 import Marquee from "react-fast-marquee";
 
@@ -13,7 +13,11 @@ import Footer from "../components/footer/Footer";
 import setiaPic from "../images/setia/Setia-3.webp";
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 
+import portretPic from "../images/mark-portret.webp";
+
 function About() {
+  const [marqueeSpeed, setMarqueeSpeed] = useState(70);
+
   useEffect(() => {
     document.querySelector("#cards").onmousemove = (e) => {
       for (const card of document.getElementsByClassName("card")) {
@@ -24,6 +28,20 @@ function About() {
         card.style.setProperty("--mouse-x", `${x}px`);
         card.style.setProperty("--mouse-y", `${y}px`);
       }
+    };
+  }, []);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+
+    const handleMediaQueryChange = (event) => {
+      setMarqueeSpeed(event.matches ? 40 : 70);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
 
@@ -49,7 +67,7 @@ function About() {
               <img
                 loading="lazy"
                 className="object-cover w-full h-full rounded-radius"
-                src={setiaPic}
+                src={portretPic}
                 alt="profile picture Marked"
               />
             </div>
@@ -85,7 +103,7 @@ function About() {
               <Marquee
                 gradientColor={[14, 14, 14]}
                 gradientWidth={50}
-                speed={100}
+                speed={marqueeSpeed}
                 pauseOnHover="true"
               >
                 <p className="text-linkClr">

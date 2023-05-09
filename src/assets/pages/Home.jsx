@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Marquee from "react-fast-marquee";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -26,7 +26,12 @@ import tickerSeven from "../images/ticker/ticker-7.webp";
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 import setiaProjectPic from "../images/setia/Setia-1.webp";
 
+//portret
+import portretPic from "../images/mark-portret.webp";
+
 function Home() {
+  const [marqueeSpeed, setMarqueeSpeed] = useState(70);
+
   useEffect(() => {
     document.querySelector("#cards").onmousemove = (e) => {
       for (const card of document.getElementsByClassName("card")) {
@@ -37,6 +42,20 @@ function Home() {
         card.style.setProperty("--mouse-x", `${x}px`);
         card.style.setProperty("--mouse-y", `${y}px`);
       }
+    };
+  }, []);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+
+    const handleMediaQueryChange = (event) => {
+      setMarqueeSpeed(event.matches ? 40 : 70);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
 
@@ -76,9 +95,13 @@ function Home() {
           </div>
         </article>
         <div className="ticker-marquee-wrapper">
-          <Marquee gradientColor={[14, 14, 14]} gradientWidth={100} speed={80}>
+          <Marquee
+            gradientColor={[14, 14, 14]}
+            gradientWidth={100}
+            speed={marqueeSpeed}
+          >
             <section id="banner" className="flex gap-outer w-[140%] h-full">
-              <div className="img-container bg-cover rounded-radius h-full ">
+              <div className="img-container rounded-radius h-full sm:w-24 md:w-52 xl:w-96">
                 <img
                   src={tickerOne}
                   alt="project img"
@@ -86,46 +109,46 @@ function Home() {
                 />
               </div>
 
-              <div className="img-container h-full bg-cover rounded-radius">
+              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
                 <img
                   src={tickerTwo}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale"
+                  className="w-full h-full  rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius">
+              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
                 <img
                   src={tickerThree}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale"
+                  className="w-full h-full  rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full  bg-cover rounded-radius">
+              <div className="img-container h-full  bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
                 <img
                   src={tickerFour}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale"
+                  className="w-full h-full  rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius">
+              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
                 <img
                   src={tickerFive}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale"
+                  className="w-full h-full  rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius">
+              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
                 <img
                   src={tickerSix}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale"
+                  className="w-full h-full  rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius">
+              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96">
                 <img
                   src={tickerSeven}
                   alt="project img"
-                  className="w-full h-full  rounded-radius grayscale"
+                  className="w-full h-full  rounded-radius grayscale object-cover"
                 />
               </div>
             </section>
@@ -150,7 +173,7 @@ function Home() {
           <article className="card basis-0 grow rounded-radius overflow-hidden hidden lg:block bg-cover">
             <img
               className="object-cover w-full h-full"
-              src={tickerThree}
+              src={portretPic}
               alt="profile picture Marked"
             />
           </article>
@@ -162,7 +185,7 @@ function Home() {
               <Marquee
                 gradientColor={[14, 14, 14]}
                 gradientWidth={50}
-                speed={100}
+                speed={marqueeSpeed}
                 pauseOnHover="true"
               >
                 <p className="text-linkClr">
@@ -177,7 +200,7 @@ function Home() {
               <Marquee
                 gradientColor={[14, 14, 14]}
                 gradientWidth={50}
-                speed={100}
+                speed={marqueeSpeed}
                 pauseOnHover="true"
               >
                 <p className="text-linkClr">
