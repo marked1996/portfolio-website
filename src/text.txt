@@ -15,3 +15,5 @@ CONTACT
 
 LAZY LOAD
     -all page components, suspense (black screen moving gradient)
+
+    sm:w-24 md:w-52 xl:w-96

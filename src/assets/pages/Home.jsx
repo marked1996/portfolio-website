@@ -100,8 +100,11 @@ function Home() {
             gradientWidth={100}
             speed={marqueeSpeed}
           >
-            <section id="banner" className="flex gap-outer h-full">
-              <div className="img-container bg-cover rounded-radius h-full sm:w-24 md:w-52 xl:w-96 overflow-hidden">
+            <section
+              id="banner"
+              className="flex gap-outer w-[800vw] h-32 md:w-[6400vw] md:h-52 lg:w-[6400vw] lg:h-64 xl:w-[640vw] xl:h-80"
+            >
+              <div className="img-container bg-cover rounded-radius h-full overflow-hidden">
                 <img
                   src={tickerOne}
                   alt="project img"
@@ -109,42 +112,92 @@ function Home() {
                 />
               </div>
 
-              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerTwo}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerThree}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full  bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
+              <div className="img-container h-full  bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerFour}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerFive}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
+              <div className="img-container h-ful bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerSix}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius grayscale object-cover"
                 />
               </div>
-              <div className="img-container   h-full mr-3 bg-cover rounded-radius sm:w-24 md:w-52 xl:w-96 overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+                <img
+                  src={tickerSeven}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                />
+              </div>
+              <div className="img-container bg-cover rounded-radius h-full overflow-hidden">
+                <img
+                  src={tickerOne}
+                  alt="project img"
+                  className="w-full h-full rounded-radius grayscale object-cover"
+                />
+              </div>
+
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+                <img
+                  src={tickerTwo}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                />
+              </div>
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+                <img
+                  src={tickerThree}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                />
+              </div>
+              <div className="img-container h-full  bg-cover rounded-radius overflow-hidden">
+                <img
+                  src={tickerFour}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                />
+              </div>
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+                <img
+                  src={tickerFive}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                />
+              </div>
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+                <img
+                  src={tickerSix}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                />
+              </div>
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerSeven}
                   alt="project img"

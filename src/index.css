@@ -223,7 +223,7 @@ HOVER CARD STYLES
 }
 
 /* banner marquee styling */
-.ticker-marquee-wrapper .marquee {
+/* .ticker-marquee-wrapper .marquee {
   height: 140px;
 }
 @media (min-width: 768px) {
@@ -235,7 +235,7 @@ HOVER CARD STYLES
   .ticker-marquee-wrapper .marquee {
     height: 400px;
   }
-}
+} */
 
 /* project card arrow svg */
 #project-svg {
