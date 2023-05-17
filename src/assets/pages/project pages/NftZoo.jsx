@@ -74,38 +74,38 @@ function NftZoo() {
           <div className="grid grid-cols-1 gap-outer md:grid-cols-2">
             <img
               src={nftPicSeven}
-              className="md:col-span-2 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
+              className="md:col-span-2 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="NFT Jungle UI screens"
             />
             <img
               src={nftPicOne}
-              className="md:col-span-2 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
+              className="md:col-span-2 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="NFT Jungle UI screens"
             />
             <img
               src={nftGif}
-              className="grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
+              className=" rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="NFT giraffes and crocodiles gif looping"
             />
             <img
               src={nftPicFive}
-              className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className=" rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
               alt="tshirt nft jungle"
             />
 
             <img
               src={nftPicTwo}
-              className=" md:col-span-2 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className=" md:col-span-2 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
               alt="nft jungle screen"
             />
             <img
               src={nftPicThree}
-              className=" grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
+              className=" rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="nft jungle screen"
             />
             <img
               src={nftPicFour}
-              className=" grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
+              className="rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
               alt="nft jungle screen"
             />
           </div>

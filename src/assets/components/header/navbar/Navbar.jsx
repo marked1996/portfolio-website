@@ -21,7 +21,7 @@ function Navbar({ isNavOpen, handleClick }) {
     return <NavMenu isNavOpen={isNavOpen} handleClick={handleClick} />;
   } else {
     return (
-      <header className="flex justify-between p-card text-linkText fixed w-full z-50 mix-blend-difference">
+      <header className="flex justify-between p-card text-linkText fixed w-full z-50 bg-gradient-to-b from-test">
         <div className="flex gap-outer">
           <Link to="/" className="logo text-textClr hover:text-linkClr">
             Marked

@@ -5,7 +5,7 @@ export default {
     fontFamily: {
       lausanne400: ["TWKLausanne-400", "sans-serif"],
       lausanne350: ["TWKLausanne-350", "sans-serif"],
-      lausanne350: ["TWKLausanne-300", "sans-serif"],
+      lausanne300: ["TWKLausanne-300", "sans-serif"],
     },
     fontSize: {
       title: "clamp(100px, 11vw, 240px)",
@@ -20,6 +20,8 @@ export default {
       cardBgClr: "#0e0e0e",
       borderClr: "#212121",
       linkClr: "#4e4e55",
+      //same as bodyClr only in rgb
+      test: "rgba(7,7,7,0.7)",
     },
     // screens:{
     //   'tablet': '640px',
@@ -43,8 +45,8 @@ export default {
         radius: "16px",
       },
       gap: {
-        inner: "max(16px, 3vw)",
-        outer: "max(12px, 0.75vw)",
+        inner: "max(14px, 2.75vw)",
+        outer: "max(10px, 0.65vw)",
       },
       height: {
         fullScreen: "100svh",

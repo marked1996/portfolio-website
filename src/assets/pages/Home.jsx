@@ -19,7 +19,6 @@ import tickerTwo from "../images/ticker/ticker-2.webp";
 import tickerThree from "../images/ticker/ticker-3.webp";
 import tickerFour from "../images/ticker/ticker-4.webp";
 import tickerFive from "../images/ticker/ticker-5.webp";
-import tickerSix from "../images/ticker/ticker-6.webp";
 import tickerSeven from "../images/ticker/ticker-7.webp";
 
 //projects
@@ -108,7 +107,7 @@ function Home() {
                 <img
                   src={tickerOne}
                   alt="project img"
-                  className="w-full h-full rounded-radius grayscale object-cover"
+                  className="w-full h-full rounded-radius opacity-70 object-cover"
                 />
               </div>
 
@@ -116,49 +115,42 @@ function Home() {
                 <img
                   src={tickerTwo}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerThree}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full  bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerFour}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerFive}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
-                />
-              </div>
-              <div className="img-container h-ful bg-cover rounded-radius overflow-hidden">
-                <img
-                  src={tickerSix}
-                  alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerSeven}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container bg-cover rounded-radius h-full overflow-hidden">
                 <img
                   src={tickerOne}
                   alt="project img"
-                  className="w-full h-full rounded-radius grayscale object-cover"
+                  className="w-full h-full rounded-radius opacity-70 object-cover"
                 />
               </div>
 
@@ -166,42 +158,35 @@ function Home() {
                 <img
                   src={tickerTwo}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerThree}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full  bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerFour}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius gopacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerFive}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
-                />
-              </div>
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
-                <img
-                  src={tickerSix}
-                  alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
                 <img
                   src={tickerSeven}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius grayscale object-cover"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
             </section>
@@ -235,32 +220,19 @@ function Home() {
           <article className="card grow">
             <div className="card-content flex flex-col gap-outer">
               <h3>My tech stack</h3>
-              <Marquee
-                gradientColor={[14, 14, 14]}
-                gradientWidth={50}
-                speed={marqueeSpeed}
-                pauseOnHover="true"
-              >
-                <p className="text-linkClr">
-                  HTML CSS Javascript React Tailwind Wordpress Git Framer
-                </p>
-              </Marquee>
+
+              <p className="text-linkClr">
+                HTML CSS Javascript React Tailwind Wordpress Git Framer
+              </p>
             </div>
           </article>
           <article className="card grow">
             <div className="card-content flex flex-col gap-outer">
               <h3>Design technologies I use</h3>
-              <Marquee
-                gradientColor={[14, 14, 14]}
-                gradientWidth={50}
-                speed={marqueeSpeed}
-                pauseOnHover="true"
-              >
-                <p className="text-linkClr">
-                  Illustrator Photoshop Indesign Aftereffects Lightroom AdobeXD
-                  Figma
-                </p>
-              </Marquee>
+              <p className="text-linkClr">
+                Illustrator Photoshop Indesign Aftereffects Lightroom AdobeXD
+                Figma
+              </p>
             </div>
           </article>
         </section>

@@ -5,7 +5,7 @@ function Footer() {
     <article id="footer" className="card footer">
       <div className="card-content flex flex-col md:flex-row md:justify-between md:items-end">
         <div className="left-side flex flex-col gap-8 md:gap-16 pb-2 md:pb-0">
-          <a href="mailto:novakmark9@gmail.com">marked@gmail.com</a>
+          <a href="mailto:novakmark9@gmail.com">novakmark9@gmail.com</a>
           <div className="social-media flex gap-outer">
             <span>
               <a

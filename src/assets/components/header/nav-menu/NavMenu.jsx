@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import NavBtn from "../../buttons/NavBtn";
-import { useState } from "react";
 
 function NavMenu({ isNavOpen, handleClick }) {
   const [logoPosition, setLogoPosition] = useState({ top: 0 });

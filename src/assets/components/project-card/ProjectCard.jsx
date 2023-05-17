@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 function ProjectCard({ value, src, alt, projectId }) {
   return (
     <Link to={projectId}>
-      <article
-        className="card group rounded-radius  hover:cursor-pointer opacity-70 hover:opacity-100 
-      transition duration-300 ease-in-out relative h-full grayscale hover:grayscale-0 overflow-hidden"
-      >
-        <div className="img-container  h-full w-full bg-cover overflow-hidden rounded-radius">
+      <article className="card group rounded-radius  hover:cursor-pointer  relative h-full overflow-hidden">
+        <div
+          className="img-container  h-full w-full bg-cover overflow-hidden rounded-radius opacity-70 group-hover:opacity-100 
+      transition duration-300 ease-in-out"
+        >
+          {/* <div className="absolute w-full h-full bg-gradient-to-t gradient-33 from-cardBgClr z-10"></div> */}
           <img
             loading="lazy"
             className="group-hover:scale-105 transition duration-300 ease-in-out object-cover h-full w-full"

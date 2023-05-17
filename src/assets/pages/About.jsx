@@ -16,7 +16,7 @@ import stumblePic from "../images/stumble/stumble-iphone.webp";
 import portretPic from "../images/mark-portret.webp";
 
 function About() {
-  const [marqueeSpeed, setMarqueeSpeed] = useState(70);
+  // const [marqueeSpeed, setMarqueeSpeed] = useState(70);
 
   useEffect(() => {
     document.querySelector("#cards").onmousemove = (e) => {
@@ -31,19 +31,19 @@ function About() {
     };
   }, []);
 
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 768px)");
+  // useEffect(() => {
+  //   const mediaQuery = window.matchMedia("(max-width: 768px)");
 
-    const handleMediaQueryChange = (event) => {
-      setMarqueeSpeed(event.matches ? 30 : 70);
-    };
+  //   const handleMediaQueryChange = (event) => {
+  //     setMarqueeSpeed(event.matches ? 30 : 70);
+  //   };
 
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
+  //   mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
+  //   return () => {
+  //     mediaQuery.removeEventListener("change", handleMediaQueryChange);
+  //   };
+  // }, []);
 
   return (
     <div id="about" className="p-inner">
@@ -77,21 +77,20 @@ function About() {
               <h3>About me</h3>
               <p>
                 Welcome! I am Mark, a dedicated web designer and a front-end
-                developer striving to create projects that I can be proud of.
-                With a passion for technology and a focus on web, I strive to
-                create beautiful digital experiences that drive value for my
-                clients and their customers. Being able to wear both hats gives
-                me the ability to conceptualize design ideas and immediately
-                test them against technical constraints. I can ask what if… and
-                come up with real code to answer design explorations. It’s a
-                two-way process that enhances my creativity.
+                developer. Being able to wear both hats gives me the ability to
+                conceptualize design ideas and immediately test them against
+                technical constraints. I can ask what if… and come up with real
+                code to answer design explorations. It’s a two-way process that
+                enhances my creativity.
               </p>
               <p>
-                In my life I’m always striving for a balance between commercial
-                work and personal projects. With personal projects, I allow
-                myself to explore, fail, learn and, of course, have some fun.
-                They contribute to my creative development and bring greater
-                value to commercial projects.
+                Incorporating design into my daily life brings me immense
+                satisfaction and joy. I take great pleasure in the aesthetics of
+                even the most ordinary objects, particularly those that are
+                functional and purposeful. As I look towards the future, my
+                focus remains on continually refining and surpassing my personal
+                objectives. Each accomplishment fuels my motivation and
+                ambition, propelling me towards further growth and success.
               </p>
             </div>
           </article>
@@ -100,31 +99,17 @@ function About() {
           <article className="card grow">
             <div className="card-content flex flex-col gap-outer">
               <h3>My tech stack</h3>
-              <Marquee
-                gradientColor={[14, 14, 14]}
-                gradientWidth={50}
-                speed={marqueeSpeed}
-                pauseOnHover="true"
-              >
-                <p className="text-linkClr">
-                  HTML CSS JS React Tailwind Wordpress Git
-                </p>
-              </Marquee>
+              <p className="text-linkClr">
+                HTML CSS JS React Tailwind Wordpress Git
+              </p>
             </div>
           </article>
           <article className="card grow">
             <div className="card-content flex flex-col gap-outer">
               <h3>Design technologies I use</h3>
-              <Marquee
-                gradientColor={[14, 14, 14]}
-                gradientWidth={50}
-                speed={marqueeSpeed}
-                pauseOnHover="true"
-              >
-                <p className="text-linkClr">
-                  Illustrator Photoshop Indesign AdobeXD Figma
-                </p>
-              </Marquee>
+              <p className="text-linkClr">
+                Illustrator Photoshop Indesign AdobeXD Figma
+              </p>
             </div>
           </article>
         </section>
