@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import Marquee from "react-fast-marquee";
 
 //components
 import Title from "../components/title/Title";
@@ -84,13 +83,11 @@ function About() {
                 enhances my creativity.
               </p>
               <p>
-                Incorporating design into my daily life brings me immense
-                satisfaction and joy. I take great pleasure in the aesthetics of
-                even the most ordinary objects, particularly those that are
-                functional and purposeful. As I look towards the future, my
-                focus remains on continually refining and surpassing my personal
-                objectives. Each accomplishment fuels my motivation and
-                ambition, propelling me towards further growth and success.
+                In my life I’m always striving for a balance between commercial
+                work and personal projects. With personal projects, I allow
+                myself to explore, fail, learn and, of course, have some fun.
+                They contribute to my creative development and bring greater
+                value to commercial projects.
               </p>
             </div>
           </article>

@@ -82,7 +82,7 @@ function Home() {
 
   return (
     <div id="home" className="p-inner">
-      <Title valueOne="UI UX Designer" valueTwo="Front End Developer" />
+      <Title valueOne="Product Designer" valueTwo="Front End Developer" />
       <main id="cards" className=" flex flex-col gap-outer px-card pb-card">
         <article className="card">
           <div className="card-content">
@@ -101,7 +101,7 @@ function Home() {
           >
             <section
               id="banner"
-              className="flex gap-outer w-[800vw] h-32 md:w-[6400vw] md:h-52 lg:w-[6400vw] lg:h-64 xl:w-[640vw] xl:h-80"
+              className="flex gap-outer  h-32  md:h-52  lg:h-64  xl:h-80"
             >
               <div className="img-container bg-cover rounded-radius h-full overflow-hidden">
                 <img
@@ -222,7 +222,8 @@ function Home() {
               <h3>My tech stack</h3>
 
               <p className="text-linkClr">
-                HTML CSS Javascript React Tailwind Wordpress Git Framer
+                HTML CSS Javascript React Tailwind Wordpress Git (currently
+                tackling Nextjs and TS)
               </p>
             </div>
           </article>

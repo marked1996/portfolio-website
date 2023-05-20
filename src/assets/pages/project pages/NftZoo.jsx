@@ -43,9 +43,9 @@ function NftZoo() {
         >
           <article className="card basis-0 grow-[2] rounded-radius lg:overflow-hidden">
             <div className="card-content flex flex-col gap-outer">
-              <h3>NFT Jungle Project</h3>
+              <h3>NFT Jungle</h3>
               <p className="text-linkClr">
-                UI UX / Development / Art direction
+                Case study / UI UX / Development / Art direction
               </p>
             </div>
           </article>
@@ -56,9 +56,7 @@ function NftZoo() {
                 as a school project by four friends - me, Tine, Lea and
                 Veronika, but has expanded beyond that. The project was an
                 exciting way for us to learn, experiment, and have fun while
-                exploring the possibilities of the web3 ecosystem.
-                Unfortunately, the NFTs never went on to sale, as we lacked
-                funding to further our project. Can't win them all I guess.
+                exploring the possibilities of the web3 ecosystem..
                 <br></br>
                 Starting with just giraffes, we added more animal NFTs as the
                 project grew. To embody the spirit of the project, I designed

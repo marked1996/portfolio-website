@@ -24,7 +24,7 @@ function NavMenu({ isNavOpen, handleClick }) {
   // }, [logoPosition]);
 
   return (
-    <header className="p-card text-linkText flex flex-col justify-between w-full h-fullScreen z-50 fixed bg-bodyCrl">
+    <header className="p-card text-linkText flex flex-col justify-between w-full h-[100dvh] z-50 fixed bg-bodyCrl">
       <section className="flex justify-between items-start">
         <div className="flex flex-col gap-inner lg:flex-row relative">
           <div

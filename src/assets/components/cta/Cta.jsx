@@ -6,7 +6,7 @@ function Cta({ href }) {
   return (
     <article className="card">
       <div className="card-content flex flex-col items-center">
-        <div className="container flex flex-col items-center py-6">
+        <div className="container flex flex-col items-center gap-inner py-6">
           <h2 className="text-center">
             Let's create{" "}
             <span className=" hidden md:h-8 md:translate-y-[6px] lg:translate-y-[8px] lg:h-12 aspect-video object-cover md:inline-block lg:inline-block">
