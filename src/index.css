@@ -124,21 +124,21 @@ h2 {
   font-size: var(--heading);
   font-weight: 400;
   letter-spacing: -0.065ch;
-  line-height: 1.75ch;
+  line-height: 1.85ch;
 }
 
 h3 {
   font-size: var(--subheading);
   font-weight: 400;
   letter-spacing: -0.045ch;
-  line-height: 1.75ch;
+  line-height: 1.85ch;
 }
 
 p {
   font-size: var(--text-size);
   font-weight: 400;
   letter-spacing: -0.01ch;
-  line-height: 2.25ch;
+  line-height: 2.35ch;
   font-size: inherit;
 }
 
