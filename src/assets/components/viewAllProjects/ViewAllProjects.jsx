@@ -10,7 +10,7 @@ function ViewAllProjects() {
     const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     const handleMediaQueryChange = (event) => {
-      setMarqueeSpeed(event.matches ? 30 : 70);
+      setMarqueeSpeed(event.matches ? 30 : 60);
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
@@ -29,49 +29,49 @@ function ViewAllProjects() {
           gradientColor={[14, 14, 14]}
           gradientWidth={0}
         >
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
-          <Link to="/projects" className="mr-2 lg:mr-4">
+          <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects
           </Link>
         </Marquee>
