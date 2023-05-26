@@ -36,7 +36,7 @@ function ViewAllProjects() {
             View all projects
           </Link>
           <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
+            View all projectss
           </Link>
           <Link to="/projects" className="mr-4 lg:mr-6">
             View all projects

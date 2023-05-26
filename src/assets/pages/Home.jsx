@@ -48,7 +48,7 @@ function Home() {
     const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     const handleMediaQueryChange = (event) => {
-      setMarqueeSpeed(event.matches ? 30 : 60);
+      setMarqueeSpeed(event.matches ? 30 : 50);
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
@@ -101,9 +101,9 @@ function Home() {
           >
             <section
               id="banner"
-              className="flex gap-outer  h-32  md:h-52  lg:h-64  xl:h-80"
+              className="flex gap-outer  h-32 md:h-52  lg:h-64  xl:h-80"
             >
-              <div className="img-container bg-cover rounded-radius h-full overflow-hidden">
+              <div className="img-container bg-cover rounded-radius h-full overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerOne}
                   alt="project img"
@@ -111,42 +111,42 @@ function Home() {
                 />
               </div>
 
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerTwo}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerThree}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full  bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full  bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFour}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFive}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerSeven}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container bg-cover rounded-radius h-full overflow-hidden">
+              <div className="img-container bg-cover rounded-radius h-full overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerOne}
                   alt="project img"
@@ -154,35 +154,35 @@ function Home() {
                 />
               </div>
 
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerTwo}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerThree}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full  bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full  bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFour}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius gopacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFive}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
-              <div className="img-container h-full bg-cover rounded-radius overflow-hidden">
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerSeven}
                   alt="project img"
