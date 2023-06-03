@@ -11,8 +11,8 @@ export default {
       title: "clamp(100px, 11vw, 240px)",
       heading: "clamp(48px, 5vw, 100px)",
       subheading: "clamp(32px, 2.5vw, 60rem)",
-      text: "clamp(18px, 2vw, 24px)",
-      linkText: "clamp(24px, 2.25vw, 30px)",
+      text: "clamp(16px, 2vw, 20px)",
+      linkText: "clamp(22px, 2.25vw, 28px)",
     },
     colors: {
       bodyCrl: "#070707",

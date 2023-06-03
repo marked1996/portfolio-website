@@ -97,7 +97,7 @@ function About() {
             <div className="card-content flex flex-col gap-outer">
               <h3>My tech stack</h3>
               <p className="text-linkClr">
-                HTML CSS JS React Tailwind Wordpress Git
+                HTML CSS JS React NextJs Tailwind Wordpress Git
               </p>
             </div>
           </article>

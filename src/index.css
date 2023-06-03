@@ -10,8 +10,8 @@
 }
 @font-face {
   font-family: "TWKLausanne-350";
-  src: url("./assets/fonts/TWKLausanne-300.woff") format("woff"),
-    url("./assets/fonts/TWKLausanne-300.woff2") format("woff2");
+  src: url("./assets/fonts/TWKLausanne-350.woff") format("woff"),
+    url("./assets/fonts/TWKLausanne-350.woff2") format("woff2");
   /* font-weight: 400; */
 }
 @font-face {
@@ -136,9 +136,9 @@ h3 {
 
 p {
   font-size: var(--text-size);
-  font-weight: 400;
-  letter-spacing: -0.01ch;
-  line-height: 2.35ch;
+  font-weight: 350;
+  letter-spacing: -0.011ch;
+  line-height: 2.25ch;
   font-size: inherit;
 }
 

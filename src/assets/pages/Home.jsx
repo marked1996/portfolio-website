@@ -222,8 +222,7 @@ function Home() {
               <h3>My tech stack</h3>
 
               <p className="text-linkClr">
-                HTML CSS Javascript React Tailwind Wordpress Git (currently
-                tackling Nextjs and TS)
+                HTML CSS Javascript React NextJs Tailwind Wordpress Git
               </p>
             </div>
           </article>
