@@ -216,7 +216,7 @@ function Home() {
             />
           </article>
         </section>
-        <section id="skills" className=" flex gap-outer flex-col lg:flex-row">
+        {/* <section id="skills" className=" flex gap-outer flex-col lg:flex-row">
           <article className="card grow">
             <div className="card-content flex flex-col gap-outer">
               <h3>My tech stack</h3>
@@ -235,7 +235,7 @@ function Home() {
               </p>
             </div>
           </article>
-        </section>
+        </section> */}
         <section id="projects">
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             {/* <ProjectCard
