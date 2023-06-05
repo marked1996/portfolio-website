@@ -20,10 +20,14 @@ import tickerThree from "../images/ticker/ticker-3.webp";
 import tickerFour from "../images/ticker/ticker-4.webp";
 import tickerFive from "../images/ticker/ticker-5.webp";
 import tickerSeven from "../images/ticker/ticker-7.webp";
+import tickerEight from "../images/ticker/ticker-8.webp";
+import tickerNine from "../images/ticker/ticker-9.webp";
+import tickerTen from "../images/ticker/ticker-10.webp";
 
 //projects
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 import setiaProjectPic from "../images/setia/Setia-1.webp";
+import nowaProjectPic from "../images/nowa/iphone-3.webp";
 
 //portret
 import portretPic from "../images/mark-portret.webp";
@@ -105,6 +109,13 @@ function Home() {
             >
               <div className="img-container bg-cover rounded-radius h-full overflow-hidden aspect-[5/3]">
                 <img
+                  src={tickerTen}
+                  alt="project img"
+                  className="w-full h-full rounded-radius opacity-70 object-cover"
+                />
+              </div>
+              <div className="img-container bg-cover rounded-radius h-full overflow-hidden aspect-[5/3]">
+                <img
                   src={tickerOne}
                   alt="project img"
                   className="w-full h-full rounded-radius opacity-70 object-cover"
@@ -125,6 +136,13 @@ function Home() {
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
               </div>
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
+                <img
+                  src={tickerEight}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                />
+              </div>
               <div className="img-container h-full  bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFour}
@@ -135,6 +153,13 @@ function Home() {
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFive}
+                  alt="project img"
+                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                />
+              </div>
+              <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
+                <img
+                  src={tickerNine}
                   alt="project img"
                   className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
                 />
@@ -251,17 +276,17 @@ function Home() {
               alt="Setia project front card"
             />
             <ProjectCard
+              value="Nowa agency"
+              src={nowaProjectPic}
+              projectId="/nowa"
+              alt="Nowa agency phone mockup"
+            />
+            <ProjectCard
               value="Stumble App"
               src={stumblePic}
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />
-            {/* <ProjectCard
-              src="src\assets\images\nftjungle\nftjungle.webp"
-              projectId="/nftjungle"
-              value="NFT Jungle"
-              alt="Nft Jungle project front card"
-            /> */}
           </div>
         </section>
         <section id="view-all-projects">

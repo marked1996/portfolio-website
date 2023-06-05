@@ -14,6 +14,7 @@ import setiaPicSix from "../../images/setia/Setia-6.webp";
 //project card imgs
 import nftPic from "../../images/nftjungle/nftjungle-1.webp";
 import stumblePic from "../../images/stumble/stumble-iphone.webp";
+import nowaPic from "../../images/nowa/iphone-3.webp";
 
 function Setia() {
   useEffect(() => {
@@ -98,6 +99,12 @@ function Setia() {
           <h2 className="mt-[20svh]">Other projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-outer">
             <ProjectCard
+              value="Nowa agency"
+              src={nowaPic}
+              projectId="/nowa"
+              alt="Nowa agency phone mockup"
+            />
+            <ProjectCard
               value="Stumble Mobile App"
               src={stumblePic}
               projectId="/stumbleapp"
@@ -109,10 +116,10 @@ function Setia() {
               projectId="/nftjungle"
               alt="NFT Jungle screens"
             />
-            <h3 className="mb-[10svh] text-linkClr">
-              Adding more projects soon...
-            </h3>
           </div>
+          <h3 className="mb-[10svh] text-linkClr">
+            Adding more projects soon...
+          </h3>
 
           {/* <ViewAllProjects /> */}
         </section>

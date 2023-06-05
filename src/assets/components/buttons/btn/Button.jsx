@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import "./button.css";
 import classNames from "classnames";
 
-function Button({ value, href, className }) {
+function Button({ value, href, className, target }) {
   const buttonClass = classNames("btn text-linkText", className);
 
   return (
-    <Link to={href} className="btn-link flex items-center">
+    <Link target={target} to={href} className="btn-link flex items-center">
       <button className={buttonClass}>{value}</button>
       <svg
         id="svg-container"

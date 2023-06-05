@@ -11,6 +11,7 @@ import Footer from "../components/footer/Footer";
 //projects
 import setiaPic from "../images/setia/Setia-3.webp";
 import stumblePic from "../images/stumble/stumble-iphone.webp";
+import nowaPic from "../images/nowa/iphone-3.webp";
 
 import portretPic from "../images/mark-portret.webp";
 
@@ -124,9 +125,12 @@ function About() {
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />
-            <h3 className="mb-[10svh] text-linkClr">
-              Adding more projects soon...
-            </h3>
+            <ProjectCard
+              value="Nowa Agency"
+              src={nowaPic}
+              projectId="/nowa"
+              alt="Stumble app open on an iphone laying on concrete"
+            />
           </div>
         </section>
         <section id="view-all-projects">

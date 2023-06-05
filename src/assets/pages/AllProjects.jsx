@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 import setiaProjectPic from "../images/setia/Setia-3.webp";
 import nftPic from "../images/nftjungle/nftjungle-1.webp";
+import nowaPic from "../images/nowa/iphone-3.webp";
 
 //components
 import Title from "../components/title/Title";
@@ -33,21 +34,27 @@ function AllProjects() {
         <section id="projects">
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             <ProjectCard
-              value="Stumble App"
-              src={stumblePic}
-              projectId="/stumbleapp"
-              alt="Stumble app open on an iphone laying on concrete"
-            />
-            <ProjectCard
               src={setiaProjectPic}
               projectId="/setia"
               value="Setia"
               alt="Setia project front card"
             />
             <ProjectCard
+              value="Nowa Agency"
+              src={nowaPic}
+              projectId="/nowa"
+              alt="Stumble app open on an iphone laying on concrete"
+            />
+            <ProjectCard
               value="NFT Jungle"
               src={nftPic}
               projectId="/nftjungle"
+              alt="Stumble app open on an iphone laying on concrete"
+            />
+            <ProjectCard
+              value="Stumble App"
+              src={stumblePic}
+              projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />
             {/* <ProjectCard

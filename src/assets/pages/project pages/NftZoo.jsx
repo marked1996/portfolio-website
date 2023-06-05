@@ -16,6 +16,7 @@ import nftGif from "../../images/nftjungle/nftjunglegif.gif";
 //project card img
 import setiaPic from "../../images/setia/Setia-3.webp";
 import stumblePic from "../../images/stumble/stumble-iphone.webp";
+import nowaPic from "../../images/nowa/iphone-3.webp";
 
 function NftZoo() {
   useEffect(() => {
@@ -118,15 +119,21 @@ function NftZoo() {
               alt="Poolhouse Setia project card"
             />
             <ProjectCard
+              value="Nowa agency"
+              src={nowaPic}
+              projectId="/nowa"
+              alt="Nowa agency phone mockup"
+            />
+            <ProjectCard
               value="Stumble Mobile App"
               src={stumblePic}
               projectId="/stumbleapp"
               alt="Stumble app open on an iphone laying on concrete"
             />
-            <h3 className="mb-[10svh] text-linkClr">
-              Adding more projects soon...
-            </h3>
           </div>
+          <h3 className="mb-[10svh] text-linkClr">
+            Adding more projects soon...
+          </h3>
 
           {/* <ViewAllProjects /> */}
         </section>

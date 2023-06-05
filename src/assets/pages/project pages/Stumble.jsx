@@ -15,6 +15,7 @@ import stumblePicSix from "../../images/stumble/stumble-6.webp";
 //project images
 import nftPic from "../../images/nftjungle/nftjungle-1.webp";
 import setiaPic from "../../images/setia/Setia-3.webp";
+import nowaPic from "../../images/nowa/iphone-3.webp";
 
 function Stumble() {
   useEffect(() => {
@@ -103,6 +104,12 @@ function Stumble() {
               src={nftPic}
               projectId="/nftjungle"
               alt="Stumble app open on an iphone laying on concrete"
+            />
+            <ProjectCard
+              value="Nowa agency"
+              src={nowaPic}
+              projectId="/nowa"
+              alt="Nowa agency phone mockup"
             />
             <ProjectCard
               value="Setia"

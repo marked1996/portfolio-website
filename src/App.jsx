@@ -12,6 +12,7 @@ import Navbar from "./assets/components/header/navbar/Navbar";
 import Stumble from "./assets/pages/project pages/Stumble";
 import NftZoo from "./assets/pages/project pages/NftZoo";
 import Setia from "./assets/pages/project pages/Setia";
+import Nowa from "./assets/pages/project pages/Nowa";
 
 function App() {
   //nav state
@@ -32,6 +33,7 @@ function App() {
         <Route exact path="/stumbleapp" element={<Stumble />} />
         <Route exact path="/nftjungle" element={<NftZoo />} />
         <Route exact path="/setia" element={<Setia />} />
+        <Route exact path="/nowa" element={<Nowa />} />
       </Routes>
     </>
   );
