@@ -22,7 +22,7 @@ function ViewAllProjects() {
 
   return (
     <article className="card projects">
-      <div className="card-content projects-content">
+      <div className="card-content projects-content view-all-projects-card">
         <Marquee
           className="projects-marquee"
           speed={marqueeSpeed}

@@ -68,9 +68,8 @@ function Nowa() {
                 aesthetic, the brand conveys professionalism and precision,
                 aligning with Nowa's values. The minimalist color palette of
                 three hues serves as a blueprint, representing the agency's
-                structured and strategic approach. By combining design and
-                development expertise, Nowa stands out as a trusted partner in
-                the world of sports.
+                structured and strategic approach. The site is still in
+                production, and we will be adding images and content shortly.
               </p>
             </div>
           </article>
@@ -141,10 +140,10 @@ function Nowa() {
               projectId="/nftjungle"
               alt="NFT Jungle screens"
             />
-            <h3 className="mb-[10svh] text-linkClr">
-              Adding more projects soon...
-            </h3>
           </div>
+          <h3 className="mb-[10svh] text-linkClr">
+            Adding more projects soon...
+          </h3>
 
           {/* <ViewAllProjects /> */}
         </section>

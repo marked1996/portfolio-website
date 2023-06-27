@@ -97,7 +97,7 @@ function Stumble() {
           </div>
         </section>
         <section id="view-all-projects">
-          <h2 className="mt-[20svh]">Other projects</h2>
+          <h2 className="mt-[20svh] mb-2 md:mb-4">Other projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-outer">
             <ProjectCard
               value="NFT Jungle"

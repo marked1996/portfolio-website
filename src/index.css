@@ -93,6 +93,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+li {
+  margin: 0;
+  padding: 0;
+}
 
 a {
   color: var(--link-color);
@@ -242,4 +246,8 @@ HOVER CARD STYLES
 #project-svg {
   height: 18px;
   /* margin-top: 2px; */
+}
+
+.view-all-projects-card {
+  padding: var(--card-padding) 0 !important;
 }

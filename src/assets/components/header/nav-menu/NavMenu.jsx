@@ -7,7 +7,7 @@ function NavMenu({ isNavOpen, handleClick }) {
 
   const handleLinkHover = (e) => {
     const linkPosition = e.target.getBoundingClientRect();
-    const navHeight = e.currentTarget.getBoundingClientRect().height;
+    const navHeight = e.target.getBoundingClientRect().height;
     setLogoPosition({
       top: linkPosition.top - navHeight,
     });
@@ -37,17 +37,41 @@ function NavMenu({ isNavOpen, handleClick }) {
             className="flex flex-col gap-2"
             onMouseLeave={handleNavMouseLeave}
           >
-            <li onClick={handleClick} onMouseOver={handleLinkHover}>
-              <NavLink to="/">Home</NavLink>
+            <li>
+              <NavLink
+                onClick={handleClick}
+                onMouseOver={handleLinkHover}
+                to="/"
+              >
+                Home
+              </NavLink>
             </li>
-            <li onClick={handleClick} onMouseOver={handleLinkHover}>
-              <NavLink to="/about">About</NavLink>
+            <li>
+              <NavLink
+                onClick={handleClick}
+                onMouseOver={handleLinkHover}
+                to="/about"
+              >
+                About
+              </NavLink>
             </li>
-            <li onClick={handleClick} onMouseOver={handleLinkHover}>
-              <NavLink to="/projects">Projects</NavLink>
+            <li>
+              <NavLink
+                onClick={handleClick}
+                onMouseOver={handleLinkHover}
+                to="/projects"
+              >
+                Projects
+              </NavLink>
             </li>
-            <li onClick={handleClick} onMouseOver={handleLinkHover}>
-              <NavLink to="/contact">Contact</NavLink>
+            <li>
+              <NavLink
+                onClick={handleClick}
+                onMouseOver={handleLinkHover}
+                to="/contact"
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>
