@@ -55,9 +55,9 @@ function NftZoo() {
               <p>
                 NFT Jungle was a web3 project that was initially conceptualized
                 as a school project by four friends - me, Tine, Lea and
-                Veronika, but has expanded beyond that. The project was an
-                exciting way for us to learn, experiment, and have fun while
-                exploring the possibilities of the web3 ecosystem..
+                Veronika. The project was an exciting way for us to learn,
+                experiment, and have fun while exploring the possibilities of
+                the web3 ecosystem..
                 <br></br>
                 Starting with just giraffes, we added more animal NFTs as the
                 project grew. To embody the spirit of the project, I designed
