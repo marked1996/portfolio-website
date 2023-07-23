@@ -51,7 +51,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 /* scrollbar styles */
 body::-webkit-scrollbar {
   width: 12px;
@@ -196,7 +195,7 @@ HOVER CARD STYLES
 
 .card::before {
   background: radial-gradient(
-    1000px circle at var(--mouse-x) var(--mouse-y),
+    2000px circle at var(--mouse-x) var(--mouse-y),
     rgba(255, 255, 255, 0.06),
     transparent 40%
   );
