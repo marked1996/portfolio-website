@@ -29,7 +29,7 @@ function ViewAllProjects() {
           gradientColor={[14, 14, 14]}
           gradientWidth={0}
         >
-          <Link to="/projects" className="mr-4 lg:mr-6">
+          <Link to="/projects" className="mr-4 lg:mr-6 ">
             View all projects
           </Link>
           <Link to="/projects" className="mr-4 lg:mr-6">

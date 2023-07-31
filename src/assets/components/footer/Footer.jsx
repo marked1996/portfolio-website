@@ -1,4 +1,5 @@
 import React from "react";
+import DownloadPdf from "../downloadPdf/DownloadPdf";
 
 function Footer() {
   return (
@@ -20,6 +21,7 @@ function Footer() {
                 Github
               </a>
             </span>
+            <DownloadPdf />
             {/* <span>
               <a href="#" target="_blank">
                 LinkedIn
