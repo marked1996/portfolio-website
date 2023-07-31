@@ -13,7 +13,7 @@ import setiaPic from "../images/setia/Setia-3.webp";
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 import nowaPic from "../images/nowa/iphone-3.webp";
 
-import portretPic from "../images/mark-portret.webp";
+import portretPic from "../images/robin.webp";
 
 function About() {
   // const [marqueeSpeed, setMarqueeSpeed] = useState(70);
@@ -76,8 +76,8 @@ function About() {
             <div className="card-content flex flex-col gap-inner">
               <h3>About me</h3>
               <p>
-                Welcome! I am Mark, a dedicated web designer and a front-end
-                developer. Being able to wear both hats gives me the ability to
+                Welcome! I'm a dedicated web designer and a front-end developer.
+                Being able to wear both hats gives me the ability to
                 conceptualize design ideas and immediately test them against
                 technical constraints. I can ask what if… and come up with real
                 code to answer design explorations. It’s a two-way process that

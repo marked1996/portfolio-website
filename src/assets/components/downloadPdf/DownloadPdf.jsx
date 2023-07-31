@@ -1,10 +1,13 @@
 import React from "react";
-import downloadPdf from "../../../../public/CV.pdf";
+import downloadPdf from "../../images/Cv.pdf";
 
 const DownloadPdf = () => {
   return (
     <span>
-      <a href={downloadPdf} download>
+      <a
+        href="#"
+        // download
+      >
         Download CV
       </a>
     </span>

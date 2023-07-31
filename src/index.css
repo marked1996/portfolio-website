@@ -250,3 +250,8 @@ HOVER CARD STYLES
 .view-all-projects-card {
   padding: var(--card-padding) 0 !important;
 }
+
+/* POINTER EVENTS FOR FB AD */
+span > a {
+  pointer-events: none;
+}

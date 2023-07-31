@@ -30,7 +30,7 @@ import setiaProjectPic from "../images/setia/Setia-1.webp";
 import nowaProjectPic from "../images/nowa/iphone-3.webp";
 
 //portret
-import portretPic from "../images/mark-portret.webp";
+import portretPic from "../images/robin.webp";
 
 function Home() {
   const [marqueeSpeed, setMarqueeSpeed] = useState(70);
