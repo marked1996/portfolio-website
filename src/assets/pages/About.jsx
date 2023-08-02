@@ -88,7 +88,12 @@ function About() {
                 work and personal projects. With personal projects, I allow
                 myself to explore, fail, learn and, of course, have some fun.
                 They contribute to my creative development and bring greater
-                value to commercial projects.
+                value to commercial projects. <br />I am a positive and
+                ambitious person, eager to learn and cope with new challenges.
+                I’m passionate about creating the web a better place with two
+                years plus of industry experience in designing web and one year
+                as a dev. I am able to work well both in a team environment as
+                well as using my own initiative.
               </p>
             </div>
           </article>
