@@ -34,16 +34,13 @@ function Footer() {
             <span>
               <a
                 href="https://www.instagram.com/marknovak1996/"
-                // target="_blank"
+                target="_blank"
               >
                 Instagram
               </a>
             </span>
             <span>
-              <a
-                href="https://github.com/marked1996"
-                // target="_blank"
-              >
+              <a href="https://github.com/marked1996" target="_blank">
                 Github
               </a>
             </span>
@@ -52,7 +49,10 @@ function Footer() {
             </span>
 
             {/* <span>
-              <a href="#" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/mark-novak-102223278/"
+                target="_blank"
+              >
                 LinkedIn
               </a>
             </span> */}
