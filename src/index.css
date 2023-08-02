@@ -252,6 +252,6 @@ HOVER CARD STYLES
 }
 
 /* POINTER EVENTS FOR FB AD */
-span > a {
+/* span > a {
   pointer-events: none;
-}
+} */

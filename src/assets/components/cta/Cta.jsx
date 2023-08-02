@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../buttons/btn/Button";
-import ctaImg from "../../images/robin.webp";
+import ctaImg from "../../images/mark-portret.webp";
 
 function Cta({ href }) {
   return (

@@ -13,7 +13,7 @@ import setiaPic from "../images/setia/Setia-3.webp";
 import stumblePic from "../images/stumble/stumble-iphone.webp";
 import nowaPic from "../images/nowa/iphone-3.webp";
 
-import portretPic from "../images/robin.webp";
+import portretPic from "../images/mark-portret.webp";
 
 function About() {
   // const [marqueeSpeed, setMarqueeSpeed] = useState(70);
