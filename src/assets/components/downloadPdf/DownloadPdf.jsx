@@ -4,10 +4,7 @@ import downloadPdf from "../../images/Cv.pdf";
 const DownloadPdf = () => {
   return (
     <span>
-      <a
-        href="#"
-        // download
-      >
+      <a href={downloadPdf} download>
         Download CV
       </a>
     </span>

@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import NavBtn from "../../buttons/NavBtn";
+import DownloadPdf from "../../downloadPdf/DownloadPdf";
 
 function NavMenu({ isNavOpen, handleClick }) {
   const [logoPosition, setLogoPosition] = useState({ top: 0 });
@@ -11,6 +12,7 @@ function NavMenu({ isNavOpen, handleClick }) {
     setLogoPosition({
       top: linkPosition.top - navHeight,
     });
+    console.log(linkPosition, navHeight);
   };
 
   const handleNavMouseLeave = () => {
@@ -18,10 +20,6 @@ function NavMenu({ isNavOpen, handleClick }) {
       top: 0,
     });
   };
-
-  // useEffect(() => {
-  //   console.log(logoPosition);
-  // }, [logoPosition]);
 
   return (
     <header className="p-card text-linkText flex flex-col justify-between w-full h-[100dvh] z-50 fixed bg-bodyCrl">
@@ -91,6 +89,9 @@ function NavMenu({ isNavOpen, handleClick }) {
             <a href="https://github.com/marked1996" target="_blank">
               Github
             </a>
+          </li>
+          <li>
+            <DownloadPdf />
           </li>
         </ul>
         <a href="mailto:novakmark9@gmail.com">novakmark9@gmail.com</a>

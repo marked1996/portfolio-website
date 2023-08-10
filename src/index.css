@@ -37,13 +37,14 @@
   --title: clamp(100px, 11vw, 240px);
   --heading: clamp(42px, 5vw, 100px);
   --subheading: clamp(32px, 2.5vw, 60rem);
-  --text-size: clamp(16px, 2vw, 22px);
+  --text-size: clamp(18px, 3vw, 24px);
   --link-size: clamp(26px, 2.5vw, 30px);
 
   --border-radius: 16px;
   --card-padding: max(16px, 2vw);
   --outer-element-gap: max(10px, 0.75vw);
   --inner-element-gap: max(16px, 3vw);
+  --view-projects-padding: max(28px, 2.5vw);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -139,9 +140,10 @@ h3 {
 
 p {
   font-size: var(--text-size);
-  font-weight: 350;
+  font-weight: 400;
   letter-spacing: -0.011ch;
   line-height: 2.25ch;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-size: inherit;
 }
 
@@ -248,8 +250,11 @@ HOVER CARD STYLES
 }
 
 .view-all-projects-card {
-  padding: var(--card-padding) 0 !important;
+  padding: var(--view-projects-padding) 0 !important;
 }
+/* .view-all-projects-card a {
+  font-size: var(--link-size);
+} */
 
 /* POINTER EVENTS FOR FB AD */
 /* span > a {

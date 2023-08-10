@@ -20,6 +20,22 @@ function ViewAllProjects() {
     };
   }, []);
 
+  const links = [
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+    "View all projects",
+  ];
+
   return (
     <article className="card projects">
       <div className="card-content projects-content view-all-projects-card">
@@ -29,51 +45,15 @@ function ViewAllProjects() {
           gradientColor={[14, 14, 14]}
           gradientWidth={0}
         >
-          <Link to="/projects" className="mr-4 lg:mr-6 ">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projectss
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
-          <Link to="/projects" className="mr-4 lg:mr-6">
-            View all projects
-          </Link>
+          {links.map((link, index) => (
+            <Link
+              key={index}
+              to="/projects"
+              className="mr-4 lg:mr-6 text-linkText"
+            >
+              {link}
+            </Link>
+          ))}
         </Marquee>
       </div>
     </article>
