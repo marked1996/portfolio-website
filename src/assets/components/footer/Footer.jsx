@@ -6,7 +6,7 @@ import { useState } from "react";
 function Footer() {
   // const [isHoveringIg, setIsHoveringIg] = useState(false);
   // const [isHoveringGh, setIsHoveringGh] = useState(false);
-  // const [isHoveringCV, setIsHoveringCV] = useState(false);
+  const [isHoveringCV, setIsHoveringCV] = useState(false);
 
   // const handleMouseEnterIg = () => {
   //   setIsHoveringIg(true);
@@ -15,22 +15,22 @@ function Footer() {
   // const handleMouseEnterGh = () => {
   //   setIsHoveringGh(true);
   // };
-  // const handleMouseEnterCV = () => {
-  //   setIsHoveringCV(true);
-  // };
+  const handleMouseEnterCV = () => {
+    setIsHoveringCV(true);
+  };
 
-  // const handleMouseLeave = () => {
-  //   setIsHoveringIg(false);
-  //   setIsHoveringGh(false);
-  //   setIsHoveringCV(false);
-  // };
+  const handleMouseLeave = () => {
+    // setIsHoveringIg(false);
+    // setIsHoveringGh(false);
+    setIsHoveringCV(false);
+  };
 
   return (
     <article id="footer" className="card footer">
-      <div className="card-content flex flex-col md:flex-row md:justify-between md:items-end">
-        <div className="left-side flex flex-col gap-8 md:gap-16 pb-2 md:pb-0">
+      <div className="flex flex-col card-content md:flex-row md:justify-between md:items-end">
+        <div className="flex flex-col gap-8 pb-2 left-side md:gap-16 md:pb-0">
           <a href="mailto:novakmark9@gmail.com">novakmark9@gmail.com</a>
-          <div className="social-media flex gap-outer">
+          <div className="flex social-media gap-outer">
             <span>
               <a
                 href="https://www.instagram.com/marknovak1996/"
@@ -44,7 +44,12 @@ function Footer() {
                 Github
               </a>
             </span>
-            <span>
+            <span
+              onMouseEnter={handleMouseEnterCV}
+              onMouseLeave={handleMouseLeave}
+              className="relative   z-[1000]"
+            >
+              {isHoveringCV && <Popup />}
               <DownloadPdf />
             </span>
 
