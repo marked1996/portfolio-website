@@ -1,10 +1,20 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import NavBtn from "../../buttons/NavBtn";
 import DownloadPdf from "../../downloadPdf/DownloadPdf";
+import Popup from "../../popup/Popup";
 
 function NavMenu({ isNavOpen, handleClick }) {
   const [logoPosition, setLogoPosition] = useState({ top: 0 });
+  const [isHoveringCV, setIsHoveringCV] = useState(false);
+
+  const handleMouseEnterCV = () => {
+    setIsHoveringCV(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHoveringCV(false);
+  };
 
   const handleLinkHover = (e) => {
     const linkPosition = e.target.getBoundingClientRect();
@@ -22,12 +32,12 @@ function NavMenu({ isNavOpen, handleClick }) {
   };
 
   return (
-    <header className="p-card text-linkText flex flex-col justify-between w-full h-[100dvh] z-50 fixed bg-bodyCrl">
-      <section className="flex justify-between items-start">
-        <div className="flex flex-col gap-inner lg:flex-row relative">
+    <header className="p-card text-linkText flex flex-col justify-between w-full h-[100dvh] z-[9999] fixed bg-bodyCrl">
+      <section className="flex items-start justify-between">
+        <div className="relative flex flex-col gap-inner lg:flex-row">
           <div
             style={{ top: logoPosition.top }}
-            className="hidden lg:block relative ease-in-out duration-300"
+            className="relative hidden duration-300 ease-in-out lg:block"
           >
             Marked
           </div>
@@ -75,8 +85,8 @@ function NavMenu({ isNavOpen, handleClick }) {
         </div>
         <NavBtn isNavOpen={isNavOpen} handleClick={handleClick} />
       </section>
-      <section className="flex flex-col gap-outer  lg:flex-row lg:justify-between">
-        <ul className="flex gap-outer flex-wrap">
+      <section className="flex flex-col gap-outer lg:flex-row lg:justify-between">
+        <ul className="flex flex-wrap gap-outer">
           <li>
             <a href="https://www.instagram.com/marknovak1996/" target="_blank">
               Instagram
@@ -90,7 +100,12 @@ function NavMenu({ isNavOpen, handleClick }) {
               Github
             </a>
           </li>
-          <li>
+          <li
+            onMouseEnter={handleMouseEnterCV}
+            onMouseLeave={handleMouseLeave}
+            className="relative   z-[1000]"
+          >
+            {isHoveringCV && <Popup />}
             <DownloadPdf />
           </li>
         </ul>
