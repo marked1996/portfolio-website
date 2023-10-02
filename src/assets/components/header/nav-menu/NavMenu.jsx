@@ -103,7 +103,7 @@ function NavMenu({ isNavOpen, handleClick }) {
           <li
             onMouseEnter={handleMouseEnterCV}
             onMouseLeave={handleMouseLeave}
-            className="relative   z-[1000]"
+            className="relative z-[1000]"
           >
             {isHoveringCV && <Popup />}
             <DownloadPdf />

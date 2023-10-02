@@ -20,6 +20,12 @@
     url("./assets/fonts/TWKLausanne-300.woff2") format("woff2");
   /* font-weight: 400; */
 }
+@font-face {
+  font-family: "TWKLausanne-250";
+  src: url("./assets/fonts/TWKLausanne-250.woff") format("woff"),
+    url("./assets/fonts/TWKLausanne-250.woff2") format("woff2");
+  /* font-weight: 400; */
+}
 
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
@@ -37,14 +43,13 @@
   --title: clamp(100px, 11vw, 240px);
   --heading: clamp(42px, 5vw, 100px);
   --subheading: clamp(32px, 2.5vw, 60rem);
-  --text-size: clamp(18px, 3vw, 24px);
+  --text-size: clamp(16px, 2vw, 22px);
   --link-size: clamp(26px, 2.5vw, 30px);
 
   --border-radius: 16px;
   --card-padding: max(16px, 2vw);
   --outer-element-gap: max(10px, 0.75vw);
   --inner-element-gap: max(16px, 3vw);
-  --view-projects-padding: max(28px, 2.5vw);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -139,11 +144,11 @@ h3 {
 }
 
 p {
+  font-family: "TWKLausanne-250" !important;
   font-size: var(--text-size);
-  font-weight: 400;
+  font-weight: 250 !important;
   letter-spacing: -0.011ch;
   line-height: 2.25ch;
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-size: inherit;
 }
 
@@ -250,11 +255,8 @@ HOVER CARD STYLES
 }
 
 .view-all-projects-card {
-  padding: var(--view-projects-padding) 0 !important;
+  padding: max(16px, 3.5vw) 0 !important;
 }
-/* .view-all-projects-card a {
-  font-size: var(--link-size);
-} */
 
 /* POINTER EVENTS FOR FB AD */
 /* span > a {

@@ -47,7 +47,7 @@ function Footer() {
             <span
               onMouseEnter={handleMouseEnterCV}
               onMouseLeave={handleMouseLeave}
-              className="relative   z-[1000]"
+              className="relative   z-[999]"
             >
               {isHoveringCV && <Popup />}
               <DownloadPdf />
