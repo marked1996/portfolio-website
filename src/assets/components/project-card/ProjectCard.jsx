@@ -4,22 +4,19 @@ import { Link } from "react-router-dom";
 function ProjectCard({ value, src, alt, projectId }) {
   return (
     <Link to={projectId}>
-      <article className="card group rounded-radius  hover:cursor-pointer  relative h-full overflow-hidden">
-        <div
-          className="img-container  h-full w-full bg-cover overflow-hidden rounded-radius opacity-70 group-hover:opacity-100 
-      transition duration-300 ease-in-out"
-        >
-          {/* <div className="absolute w-full h-full bg-gradient-to-t gradient-33 from-cardBgClr z-10"></div> */}
+      <article className="relative h-full overflow-hidden card group rounded-radius hover:cursor-pointer">
+        <div className="w-full h-full overflow-hidden transition duration-300 ease-in-out bg-cover img-container rounded-radius opacity-70 group-hover:opacity-100">
+          {/* <div className="absolute z-10 w-full h-full bg-gradient-to-t gradient-33 from-cardBgClr"></div> */}
           <img
             loading="lazy"
-            className="group-hover:scale-105 transition duration-300 ease-in-out object-cover h-full w-full"
+            className="object-cover w-full h-full transition duration-300 ease-in-out group-hover:scale-105"
             src={src}
             alt={alt}
           />
         </div>
 
-        <div className="project-card-text flex items-center gap-1  absolute z-6 bottom-2 left-2 lg:bottom-4 lg:left-4">
-          <p className="text-textClr opacity-80 group-hover:opacity-100 transition duration-300 ease-in-out">
+        <div className="absolute flex items-center gap-1 project-card-text z-6 bottom-2 left-2 lg:bottom-4 lg:left-4">
+          <p className="transition duration-300 ease-in-out text-textClr opacity-80 group-hover:opacity-100">
             {value}
           </p>
           <svg

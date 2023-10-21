@@ -62,32 +62,10 @@ function Home() {
     };
   }, []);
 
-  // const slidingImgs = useRef();
-
-  // useLayoutEffect(() => {
-  //   const ctx = gsap.context((self) => {
-  //     const imgs = self.selector(".img-container");
-  //     imgs.forEach((img) => {
-  //       gsap.to(img, {
-  //         x: -500,
-  //         scrollTrigger: {
-  //           overwrite: "auto",
-  //           trigger: img,
-  //           start: "top bottom",
-  //           end: "80% 0%",
-  //           scrub: true,
-  //           stagger: true,
-  //         },
-  //       });
-  //     });
-  //   }, slidingImgs); // <- Scope!
-  //   return () => ctx.revert(); // <- Cleanup!
-  // }, []);
-
   return (
     <div id="home" className="p-inner">
-      <Title valueOne="Product Designer" valueTwo="Front End Developer" />
-      <main id="cards" className=" flex flex-col gap-outer px-card pb-card">
+      <Title valueOne="UI UX Designer" valueTwo="Front End Developer" />
+      <main id="cards" className="flex flex-col  gap-outer px-card pb-card">
         <article className="card">
           <div className="card-content">
             <h3 className="">
@@ -105,20 +83,20 @@ function Home() {
           >
             <section
               id="banner"
-              className="flex gap-outer  h-32 md:h-52  lg:h-64  xl:h-80"
+              className="flex h-32 gap-outer md:h-52 lg:h-64 xl:h-80"
             >
               <div className="img-container bg-cover rounded-radius h-full overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerTen}
                   alt="project img"
-                  className="w-full h-full rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container bg-cover rounded-radius h-full overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerOne}
                   alt="project img"
-                  className="w-full h-full rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full rounded-radius opacity-70"
                 />
               </div>
 
@@ -126,56 +104,56 @@ function Home() {
                 <img
                   src={tickerTwo}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerThree}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerEight}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full  bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFour}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFive}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerNine}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerSeven}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container bg-cover rounded-radius h-full overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerOne}
                   alt="project img"
-                  className="w-full h-full rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full rounded-radius opacity-70"
                 />
               </div>
 
@@ -183,44 +161,44 @@ function Home() {
                 <img
                   src={tickerTwo}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerThree}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full  bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFour}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius gopacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius gopacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerFive}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
               <div className="img-container h-full bg-cover rounded-radius overflow-hidden aspect-[5/3]">
                 <img
                   src={tickerSeven}
                   alt="project img"
-                  className="w-full h-full bg-cover rounded-radius opacity-70 object-cover"
+                  className="object-cover w-full h-full bg-cover rounded-radius opacity-70"
                 />
               </div>
             </section>
           </Marquee>
         </div>
 
-        <section id="intro" className=" flex flex-col lg:flex-row gap-outer ">
+        <section id="intro" className="flex flex-col  lg:flex-row gap-outer">
           <article className="card basis-0 grow-[3]">
-            <div className="card-content flex flex-col gap-inner">
+            <div className="flex flex-col card-content gap-inner">
               <h3>A quick intro</h3>
               <p>
                 With a passion for technology and a focus on web, I strive to
@@ -233,7 +211,7 @@ function Home() {
               <Button value="Read more" href="/about" />
             </div>
           </article>
-          <article className="card basis-0 grow rounded-radius overflow-hidden hidden lg:block bg-cover">
+          <article className="hidden overflow-hidden bg-cover card basis-0 grow rounded-radius lg:block">
             <img
               className="object-cover w-full h-full"
               src={portretPic}
@@ -241,9 +219,9 @@ function Home() {
             />
           </article>
         </section>
-        {/* <section id="skills" className=" flex gap-outer flex-col lg:flex-row">
+        {/* <section id="skills" className="flex flex-col  gap-outer lg:flex-row">
           <article className="card grow">
-            <div className="card-content flex flex-col gap-outer">
+            <div className="flex flex-col card-content gap-outer">
               <h3>My tech stack</h3>
 
               <p className="text-linkClr">
@@ -252,7 +230,7 @@ function Home() {
             </div>
           </article>
           <article className="card grow">
-            <div className="card-content flex flex-col gap-outer">
+            <div className="flex flex-col card-content gap-outer">
               <h3>Design technologies I use</h3>
               <p className="text-linkClr">
                 Illustrator Photoshop Indesign Aftereffects Lightroom AdobeXD

@@ -64,7 +64,9 @@ function Footer() {
           </div>
         </div>
         <div className="right-side">
-          <p className="text-linkClr">Designed and developed by Marked ©2023</p>
+          <p className="text-linkClr">
+            Designed and developed by Marked ©{new Date().getFullYear()}
+          </p>
         </div>
       </div>
     </article>

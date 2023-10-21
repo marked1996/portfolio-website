@@ -39,16 +39,16 @@ function Stumble() {
       >
         <section
           id="about-intro"
-          className=" flex flex-col lg:flex-row gap-outer"
+          className="flex flex-col  lg:flex-row gap-outer"
         >
           <article className="card basis-0 grow-[2] rounded-radius lg:overflow-hidden">
-            <div className="card-content flex flex-col gap-outer">
+            <div className="flex flex-col card-content gap-outer">
               <h3>Stumble App</h3>
               <p className="text-linkClr">UI UX / Illustration / Flow</p>
             </div>
           </article>
           <article className="card basis-0 grow-[3]">
-            <div className="card-content flex flex-col gap-inner">
+            <div className="flex flex-col card-content gap-inner">
               <p>
                 Travel is more than just reaching a destination - it's about the
                 entire experience, from planning and anticipation to the actual
@@ -70,28 +70,28 @@ function Stumble() {
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             <img
               src={stumblePicSix}
-              className=" col-span-1 md:col-span-2 rounded-radius opacity-60 hover:opacity-80 transition duration-500 ease-in-out bg-cover h-full w-full"
+              className="w-full h-full col-span-1 transition duration-500 ease-in-out bg-cover  md:col-span-2 rounded-radius opacity-60 hover:opacity-80"
               alt="Stumble components"
             />
             <img
               src={stumblePicFive}
-              className="col-span-1 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover w-full"
+              className="object-cover w-full col-span-1 transition duration-500 ease-in-out grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100"
               alt="Stumble cover photo"
             />
 
             <img
               src={stumblePicFour}
-              className="col-span-1 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out h-full w-full"
+              className="w-full h-full col-span-1 transition duration-500 ease-in-out rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100"
               alt="Stumble home screen"
             />
             <img
               src={stumblePicThree}
-              className="col-span-1 md:col-span-2 rounded-radius opacity-60 hover:opacity-80 transition duration-500 ease-in-out bg-cover h-full w-full"
+              className="w-full h-full col-span-1 transition duration-500 ease-in-out bg-cover md:col-span-2 rounded-radius opacity-60 hover:opacity-80"
               alt="6 Stumble screens open on an iphone"
             />
             <img
               src={stumblePicOne}
-              className="col-span-1 md:col-span-2 rounded-radius opacity-60 hover:opacity-80 transition duration-500 ease-in-out bg-cover h-full w-full"
+              className="w-full h-full col-span-1 transition duration-500 ease-in-out bg-cover md:col-span-2 rounded-radius opacity-60 hover:opacity-80"
               alt="6 Stumble screens open on an iphone"
             />
           </div>
@@ -103,7 +103,7 @@ function Stumble() {
               value="NFT Jungle"
               src={nftPic}
               projectId="/nftjungle"
-              alt="Stumble app open on an iphone laying on concrete"
+              alt="Nft jungle presentation picture"
             />
             <ProjectCard
               value="Nowa agency"

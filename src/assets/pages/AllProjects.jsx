@@ -6,6 +6,7 @@ import stumblePic from "../images/stumble/stumble-iphone.webp";
 import setiaProjectPic from "../images/setia/Setia-3.webp";
 import nftPic from "../images/nftjungle/nftjungle-1.webp";
 import nowaPic from "../images/nowa/iphone-3.webp";
+import novartisPic from "../images/novartis/novartis-4.webp";
 
 //components
 import Title from "../components/title/Title";
@@ -30,7 +31,7 @@ function AllProjects() {
   return (
     <div id="about" className="p-inner">
       <Title valueOne="My projects" valueTwo="Work" />
-      <main id="cards" className=" flex flex-col gap-outer px-card pb-card">
+      <main id="cards" className="flex flex-col gap-outer px-card pb-card">
         <section id="projects">
           <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
             <ProjectCard
@@ -55,6 +56,12 @@ function AllProjects() {
               value="Stumble App"
               src={stumblePic}
               projectId="/stumbleapp"
+              alt="Stumble app open on an iphone laying on concrete"
+            />
+            <ProjectCard
+              value="Novartis career fair"
+              src={novartisPic}
+              projectId="/novartis-fair"
               alt="Stumble app open on an iphone laying on concrete"
             />
             {/* <ProjectCard

@@ -13,11 +13,10 @@ import Stumble from "./assets/pages/project pages/Stumble";
 import NftZoo from "./assets/pages/project pages/NftZoo";
 import Setia from "./assets/pages/project pages/Setia";
 import Nowa from "./assets/pages/project pages/Nowa";
+import Novartis from "./assets/pages/project pages/Novartis";
 
 function App() {
-  //nav state
   const [isNavOpen, setIsNavOpen] = useState(false);
-  //nav open close click
   const handleClick = () => {
     setIsNavOpen(!isNavOpen);
   };
@@ -34,6 +33,7 @@ function App() {
         <Route exact path="/nftjungle" element={<NftZoo />} />
         <Route exact path="/setia" element={<Setia />} />
         <Route exact path="/nowa" element={<Nowa />} />
+        <Route exact path="/novartis-fair" element={<Novartis />} />
       </Routes>
     </>
   );

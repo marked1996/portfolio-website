@@ -104,6 +104,7 @@ li {
 }
 
 a {
+  font-weight: 400 !important;
   color: var(--link-color);
   text-decoration: inherit;
   transition: color 0.3s ease-in-out;
@@ -255,7 +256,7 @@ HOVER CARD STYLES
 }
 
 .view-all-projects-card {
-  padding: max(16px, 3.5vw) 0 !important;
+  padding: max(1.5rem, 3.5vw) 0 !important;
 }
 
 /* POINTER EVENTS FOR FB AD */
