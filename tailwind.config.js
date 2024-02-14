@@ -9,10 +9,10 @@ export default {
     },
     fontSize: {
       title: "clamp(100px, 11vw, 240px)",
-      heading: "clamp(48px, 5vw, 100px)",
+      heading: "clamp(60px, 5vw, 100px)",
       subheading: "clamp(32px, 2.5vw, 60rem)",
-      text: "clamp(15px, 1.85vw, 16px)",
-      linkText: "clamp(20px, 2.25vw, 24px)",
+      text: "24px", //clamp(24px, 1.85vw, 24px)
+      linkText: "clamp(24px, 2.25vw, 32px)",
     },
     colors: {
       bodyCrl: "#070707",

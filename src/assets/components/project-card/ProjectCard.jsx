@@ -16,7 +16,7 @@ function ProjectCard({ value, src, alt, projectId }) {
         </div>
 
         <div className="absolute flex items-center gap-1 project-card-text z-6 bottom-2 left-2 lg:bottom-4 lg:left-4">
-          <p className="transition duration-300 ease-in-out text-textClr opacity-80 group-hover:opacity-100">
+          <p className="transition duration-300 ease-in-out text-linkText text-textClr opacity-80 group-hover:opacity-100">
             {value}
           </p>
           <svg

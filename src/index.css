@@ -30,7 +30,7 @@
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   font-family: "TWKLausanne-300";
-  /* font-weight: 400; */
+  /* font-weight: 250; */
   font-size: var(--text-size);
 
   --body-color: #070707;
@@ -41,9 +41,10 @@
   --hover-link-color: #f7f7f7;
 
   --title: clamp(100px, 11vw, 240px);
-  --heading: clamp(42px, 5vw, 100px);
-  --subheading: clamp(32px, 2.5vw, 60rem);
-  --text-size: clamp(16px, 2vw, 22px);
+  --heading: clamp(60px, 5vw, 100px);
+  --subheading: clamp(36px, 5vw, 60px);
+  /* --text-size: clamp(16px, 2vw, 22px); */
+  --text-size: 24px;
   --link-size: clamp(26px, 2.5vw, 30px);
 
   --border-radius: 16px;
@@ -104,7 +105,7 @@ li {
 }
 
 a {
-  font-weight: 400 !important;
+  font-weight: 350 !important;
   color: var(--link-color);
   text-decoration: inherit;
   transition: color 0.3s ease-in-out;
@@ -134,28 +135,28 @@ h2 {
   font-size: var(--heading);
   font-weight: 400;
   letter-spacing: -0.065ch;
-  line-height: 1.85ch;
+  line-height: 130%;
 }
 
 h3 {
   font-size: var(--subheading);
   font-weight: 400;
   letter-spacing: -0.045ch;
-  line-height: 1.85ch;
+  line-height: 130%;
 }
 
 p {
-  font-family: "TWKLausanne-250" !important;
+  font-family: "TWKLausanne-300" !important;
   font-size: var(--text-size);
   font-weight: 250 !important;
-  letter-spacing: -0.011ch;
-  line-height: 2.25ch;
+  letter-spacing: -0.0075ch;
+  line-height: 140%;
   font-size: inherit;
 }
 
 .links-size {
   font-size: var(--link-size);
-  font-weight: 400;
+  font-weight: 350;
   letter-spacing: -0.035ch;
   line-height: 2ch;
 }

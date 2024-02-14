@@ -39,10 +39,10 @@ function Nowa() {
       >
         <section
           id="about-intro"
-          className=" flex flex-col lg:flex-row gap-outer"
+          className="flex flex-col  lg:flex-row gap-outer"
         >
           <article className="card basis-0 grow-[2] rounded-radius lg:overflow-hidden">
-            <div className="card-content flex flex-col justify-between gap-6 md:gap-0">
+            <div className="flex flex-col justify-between gap-6 card-content md:gap-0">
               <div className="flex flex-col gap-outer">
                 <h3>Nowa Agency</h3>
                 <p className="text-linkClr">
@@ -58,7 +58,7 @@ function Nowa() {
             </div>
           </article>
           <article className="card basis-0 grow-[3]">
-            <div className="card-content flex flex-col gap-inner">
+            <div className="flex flex-col card-content gap-inner">
               <p>
                 Nowa is a dynamic agency focused on sport events and sport
                 promotion materials.
@@ -78,43 +78,43 @@ function Nowa() {
           <div className="grid grid-cols-1 gap-outer md:grid-cols-2">
             <img
               src={nowa3}
-              className="md:col-span-2 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out md:col-span-2 grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100"
               alt="Setia UI screens"
             />
             <img
               src={nowa2}
-              className="grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100 transition duration-500 ease-in-out object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out grayscale hover:grayscale-0 rounded-radius opacity-70 hover:opacity-100"
               alt="Setia laptop ui screen"
             />
             <img
               src={nowa1}
-              className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out  rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100"
               alt="Setia logo buisness card"
             />
 
             <img
               src={nowa4}
-              className=" md:col-span-2 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out  md:col-span-2 rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100"
               alt="Setia logo on matte black paper"
             />
             <img
               src={bussinesscard}
-              className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out  rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100"
               alt="Setia logo on matte black paper"
             />
             <img
               src={nowa5}
-              className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out  rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100"
               alt="Setia logo on matte black paper"
             />
             <img
               src={nowalogo}
-              className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out  rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100"
               alt="Setia logo on matte black paper"
             />
             <img
               src={nowa6}
-              className=" rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition duration-500 ease-in-out  object-cover h-full w-full"
+              className="object-cover w-full h-full transition duration-500 ease-in-out  rounded-radius grayscale hover:grayscale-0 opacity-70 hover:opacity-100"
               alt="Setia logo on matte black paper"
             />
           </div>

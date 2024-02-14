@@ -65,7 +65,7 @@ function Home() {
   return (
     <div id="home" className="p-inner">
       <Title valueOne="UI UX Designer" valueTwo="Front End Developer" />
-      <main id="cards" className="flex flex-col  gap-outer px-card pb-card">
+      <main id="cards" className="flex flex-col gap-outer px-card pb-card">
         <article className="card">
           <div className="card-content">
             <h3 className="">
@@ -75,7 +75,7 @@ function Home() {
             </h3>
           </div>
         </article>
-        <div className="ticker-marquee-wrapper">
+        {/* <div className="ticker-marquee-wrapper">
           <Marquee
             gradientColor={[14, 14, 14]}
             gradientWidth={100}
@@ -194,12 +194,12 @@ function Home() {
               </div>
             </section>
           </Marquee>
-        </div>
+        </div> */}
 
-        <section id="intro" className="flex flex-col  lg:flex-row gap-outer">
+        {/* <section id="intro" className="flex flex-col lg:flex-row gap-outer">
           <article className="card basis-0 grow-[3]">
             <div className="flex flex-col card-content gap-inner">
-              <h3>A quick intro</h3>
+              <h2>A quick intro</h2>
               <p>
                 With a passion for technology and a focus on web, I strive to
                 create beautiful digital experiences that drive value for my
@@ -218,8 +218,8 @@ function Home() {
               alt="profile picture Marked"
             />
           </article>
-        </section>
-        {/* <section id="skills" className="flex flex-col  gap-outer lg:flex-row">
+        </section> */}
+        {/* <section id="skills" className="flex flex-col gap-outer lg:flex-row">
           <article className="card grow">
             <div className="flex flex-col card-content gap-outer">
               <h3>My tech stack</h3>
@@ -240,7 +240,7 @@ function Home() {
           </article>
         </section> */}
         <section id="projects">
-          <div className="grid grid-cols-1 gap-outer lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-outer">
             {/* <ProjectCard
               value="Poolhouse Ljubljana"
               src="src\assets\images\poolhouse\poolhouselogo.webp"

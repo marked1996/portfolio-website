@@ -17,7 +17,7 @@ function NavMenu({ isNavOpen, handleClick }) {
   };
 
   const handleLinkHover = (e) => {
-    const linkPosition = e.target.getBoundingClientRect();
+    const linkPosition = e.target.getBoundingClientRect(); 
     const navHeight = e.target.getBoundingClientRect().height;
     setLogoPosition({
       top: linkPosition.top - navHeight,

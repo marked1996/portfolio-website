@@ -49,7 +49,7 @@ function ViewAllProjects() {
             <Link
               key={index}
               to="/projects"
-              className="mr-4 lg:mr-6 text-linkText"
+              className="mr-8 lg:mr-20 text-linkText"
             >
               {link}
             </Link>
